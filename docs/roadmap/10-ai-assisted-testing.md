@@ -140,5 +140,5 @@ AI 对测试效率的改变已经真实发生：写 20 条用例从半小时变�
 - [MCP 官方文档](https://modelcontextprotocol.io/)：了解 AI 工具协议标准。
 - 国内模型文档中心（DeepSeek / 通义 / 智谱的提示词指南）：中文提示词实践的免费参考。
 - 本仓库后续将在 [docs/knowledge](../knowledge/README.md) 收集社区验证过的提示词模板，欢迎贡献。
-- [AI 进化社 · Skill 技能商店](https://www.testfather.cn/skills)：AI 测试提效技能包（用例生成、脚本增强、失败诊断、报告生成）。
-- [AI 进化社 · 教程专栏](https://www.testfather.cn/tutorials)：AI 辅助测试工作流实战教程。
+- [AI 测试开发导航 · Skill 技能商店](https://www.testfather.cn/skills)：AI 测试提效技能包（用例生成、脚本增强、失败诊断、报告生成）。
+- [AI 测试开发导航 · 教程专栏](https://www.testfather.cn/tutorials)：AI 辅助测试工作流实战教程。

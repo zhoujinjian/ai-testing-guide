@@ -99,4 +99,4 @@
 - [Locust 官方文档](https://docs.locust.io/)：Python 栈压测首选。
 - 《全链路压测实战》相关技术博客：搜「全链路压测 字节 / 阿里」了解大厂实践。
 - [Arthas 官方文档](https://arthas.aliyun.com/)：Java 应用线上诊断利器，排查性能问题利器。
-- [AI 进化社 · 教程专栏](https://www.testfather.cn/tutorials)：性能测试与瓶颈定位实战教程。
+- [AI 测试开发导航 · 教程专栏](https://www.testfather.cn/tutorials)：性能测试与瓶颈定位实战教程。

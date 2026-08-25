@@ -123,6 +123,6 @@
 - 本路线 [第 05-11 章](./README.md)各章自查清单：面试前把全部清单过一遍，查漏补缺。
 - [docs/interview](../interview/README.md)：本仓库规划中的分类题库与参考回答（持续建设中，欢迎贡献你遇到的真实面试题）。
 - 牛客网面经板块搜「测试开发」：真实面试题的主要来源。
-- [AI 进化社 · 面试刷题](https://www.testfather.cn/interviews)：测开高频面试题在线练习。
-- [AI 进化社 · 面试测评](https://www.testfather.cn/interviews/assessment)：面试前能力自测，定位薄弱环节。
-- [AI 进化社 · 简历模板](https://www.testfather.cn/resume-templates)：测试开发简历模板与写作参考。
+- [AI 测试开发导航 · 面试刷题](https://www.testfather.cn/interviews)：测开高频面试题在线练习。
+- [AI 测试开发导航 · 面试测评](https://www.testfather.cn/interviews/assessment)：面试前能力自测，定位薄弱环节。
+- [AI 测试开发导航 · 简历模板](https://www.testfather.cn/resume-templates)：测试开发简历模板与写作参考。

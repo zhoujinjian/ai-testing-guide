@@ -99,4 +99,4 @@ Token 成本（每次调用的输入 / 输出 token 数）、响应时长 P95、
 - [LlamaIndex 文档](https://docs.llamaindex.ai/)：搭练手 RAG 的最快路径。
 - [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)：AI 应用安全风险清单，安全用例设计对照表。
 - 论文选读：RAGAS、LLM-as-a-Judge（搜标题即得），了解指标设计思想即可，不必抠数学。
-- [AI 进化社 · 教程专栏](https://www.testfather.cn/tutorials)：AI 应用评测（RAG / Agent）实战教程。
+- [AI 测试开发导航 · 教程专栏](https://www.testfather.cn/tutorials)：AI 应用评测（RAG / Agent）实战教程。

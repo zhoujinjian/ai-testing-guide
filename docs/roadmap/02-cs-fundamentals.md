@@ -76,4 +76,4 @@
 - [Hello 算法](https://www.hello-algo.com/)：开源免费的动画图解数据结构与算法，支持多语言示例。
 - LeetCode：算法练习主力，按「热题 100」+ 简单题全刷的节奏来。
 - 《计算机网络：自顶向下方法》：想系统补理论时的教材级选择，选读。
-- [AI 进化社 · 教程专栏](https://www.testfather.cn/tutorials)：与本章配套的计算机基础实战教程。
+- [AI 测试开发导航 · 教程专栏](https://www.testfather.cn/tutorials)：与本章配套的计算机基础实战教程。

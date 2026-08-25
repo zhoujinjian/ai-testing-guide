@@ -100,5 +100,5 @@ Postman、Apifox、Reqable、Insomnia。会：接口调试、环境变量、前�
 - [Allure 报告文档](https://allurereport.org/)：测试报告事实标准。
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)：安全测试用例设计的对照清单。
 - [Apifox 帮助文档](https://apifox.com/help/)：国内团队协作的主流选择。
-- [AI 进化社 · 教程专栏](https://www.testfather.cn/tutorials)：接口自动化实战教程，与本章框架六大件配套。
-- [AI 进化社 · Skill 技能商店](https://www.testfather.cn/skills)：接口测试提效技能（用例生成、执行调度、失败诊断、报告生成）。
+- [AI 测试开发导航 · 教程专栏](https://www.testfather.cn/tutorials)：接口自动化实战教程，与本章框架六大件配套。
+- [AI 测试开发导航 · Skill 技能商店](https://www.testfather.cn/skills)：接口测试提效技能（用例生成、执行调度、失败诊断、报告生成）。

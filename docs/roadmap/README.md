@@ -85,7 +85,7 @@
 
 ## 配套资源
 
-本路线与 [AI 进化社](https://www.testfather.cn/) 配套建设：[在线版学习路线](https://www.testfather.cn/learning-paths)（支持进度跟踪）、[教程专栏](https://www.testfather.cn/tutorials)（分阶段实战教程）、[精品课程](https://www.testfather.cn/courses)（体系化课程）。
+本路线与 [AI 测试开发导航](https://www.testfather.cn/) 配套建设：[在线版学习路线](https://www.testfather.cn/learning-paths)（支持进度跟踪）、[教程专栏](https://www.testfather.cn/tutorials)（分阶段实战教程）、[精品课程](https://www.testfather.cn/courses)（体系化课程）。
 
 ## 下一步
 

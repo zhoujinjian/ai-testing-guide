@@ -77,4 +77,4 @@
 - [FastAPI 官方教程](https://fastapi.tiangolo.com/zh/)：中文友好，几小时就能起一个练手服务。
 - 《Effective Python》《Effective Java》：主语言进阶后的习惯养成，选读。
 - 廖雪峰 Python 教程：零基础入门的免费选择。
-- [AI 进化社 · 教程专栏](https://www.testfather.cn/tutorials)：编程语言与测试框架实战教程，与本章配套。
+- [AI 测试开发导航 · 教程专栏](https://www.testfather.cn/tutorials)：编程语言与测试框架实战教程，与本章配套。

@@ -84,5 +84,5 @@ UI/App 自动化和接口自动化拉开差距的地方：
 - [Playwright 官方文档](https://playwright.dev/)：文档质量标杆，中文版可读，从 Quickstart 走完即可入门。
 - [Selenium 官方文档](https://www.selenium.dev/documentation/)：理解 WebDriver 协议与等待机制。
 - [Appium 官方文档](https://appium.io/)：App 自动化事实标准。
-- [AI 进化社 · 教程专栏](https://www.testfather.cn/tutorials)：UI / App 自动化实战教程。
-- [AI 进化社 · Skill 技能商店](https://www.testfather.cn/skills)：UI 测试提效技能（脚本生成、视觉回归、失败诊断）。
+- [AI 测试开发导航 · 教程专栏](https://www.testfather.cn/tutorials)：UI / App 自动化实战教程。
+- [AI 测试开发导航 · Skill 技能商店](https://www.testfather.cn/skills)：UI 测试提效技能（脚本生成、视觉回归、失败诊断）。
