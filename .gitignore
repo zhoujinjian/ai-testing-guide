@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+
+# Node（后续若引入文档站点）
+node_modules/
+dist/
+.cache/
+
+# 临时文件
+*.log
+*.tmp
