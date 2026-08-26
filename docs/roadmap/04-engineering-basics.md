@@ -109,4 +109,4 @@
 - [Pro Git 中文版](https://git-scm.com/book/zh/v2)：Git 权威免费书，读前 3 章即可。
 - [Docker 从入门到实践](https://github.com/yeasy/docker_practice)：开源中文 Docker 教材。
 - [GitHub Actions 官方文档](https://docs.github.com/zh/actions)：照着 Quickstart 跑通第一条流水线。
-- [AI 测试开发导航 · 教程专栏](https://www.testfather.cn/tutorials)：MySQL、Linux、Docker 工程基础实操教程。
+- [AI 测试开发导航 · 精选课程](https://www.testfather.cn/courses)：MySQL、Linux、Docker 工程基础实操教程。

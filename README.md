@@ -1,8 +1,18 @@
-# ai-testing-guide（AI 测试开发学习路线大全）
+<h1 align="center">🔥 AI 测试开发学习路线大全</h1>
 
-> 从功能测试到质量工程的完整成长地图：先练扎实基本功，再借 AI 提效 —— 免费开源，持续更新 🚀
+<p align="center">
+  <b>从功能测试到质量工程的完整成长地图：先练扎实基本功，再借 AI 提效 —— 免费开源，持续更新 🚀</b>
+</p>
 
-[![在线阅读](https://img.shields.io/badge/在线阅读-testfather.cn-blue?style=for-the-badge)](https://www.testfather.cn/) [![GitHub Stars](https://img.shields.io/github/stars/zhoujinjian/ai-testing-guide?style=for-the-badge&logo=github&color=yellow)](https://github.com/zhoujinjian/ai-testing-guide) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=for-the-badge)](./LICENSE)
+<p align="center">
+  <a href="https://www.testfather.cn/"><img src="https://img.shields.io/badge/在线阅读-testfather.cn-blue?style=for-the-badge" alt="在线阅读"/></a>
+  <a href="https://github.com/zhoujinjian/ai-testing-guide"><img src="https://img.shields.io/github/stars/zhoujinjian/ai-testing-guide?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"/></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=for-the-badge" alt="License: CC BY-NC-SA 4.0"/></a>
+</p>
+
+<p align="center">
+  <img src="./assets/images/roadmap-banner.jpg" alt="AI 测试开发学习路线图" width="800"/>
+</p>
 
 软件测试开发正在被 AI 重塑：用例可以让 AI 出初稿，脚本可以让 AI 帮忙写，但「判断测得够不够、质量有没有滑坡、问题出在哪一层」仍然需要人。这个仓库整理了一条从零基础到测试开发工程师（SDET）的完整学习路线：既打牢传统测试开发的功底，也补上 AI 时代的两门新功课——用 AI 提效测试，以及评测 AI 应用本身。
 
@@ -25,16 +35,16 @@
 | **🧱 筑基 · 编程与工程功底**           |                                                                |                 |                                                                                    |
 | 阶段一                                        | [02 计算机基础](./docs/roadmap/02-cs-fundamentals.md)           | 🧱 筑基初期     | 网络 · 操作系统 · 数据结构与算法                                                 |
 | 阶段二                                        | [03 编程语言](./docs/roadmap/03-programming.md)                 | 🏗️ 筑基中期   | Python / Java 主语言 + 单测框架                                                    |
-| 阶段三                                        | [04 工程基础](./docs/roadmap/04-engineering-basics.md)          | 🏯 筑基圆满     | MySQL · Redis 缓存 · 消息队列与 Nginx 中间件 · Linux · Git · Docker · K8s    |
+| 阶段三                                        | [04 工程基础](./docs/roadmap/04-engineering-basics.md)          | 🏯 筑基圆满     | MySQL · Redis 缓存 · 消息队列与 Nginx 中间件 · Linux · Git · Docker · K8s · CI/CD |
 | **🧪 测试核心 · 从用例设计到质量工程** |                                                                |                 |                                                                                    |
 | 阶段四                                        | [05 测试理论与用例设计](./docs/roadmap/05-testing-theory.md)    | ⚗️ 结丹期     | 六维用例框架 · 边界与异常思维                                                     |
 | 阶段五                                        | [06 接口测试与接口自动化](./docs/roadmap/06-api-automation.md)  | 👶 元婴初期     | 框架分层 · 断言体系 · Mock 与数据构造                                            |
 | 阶段六                                        | [07 UI 与 App 自动化](./docs/roadmap/07-ui-app-automation.md)   | 🧒 元婴中期     | Playwright · Selenium / Appium · POM                                             |
 | 阶段七                                        | [08 性能与稳定性测试](./docs/roadmap/08-performance-testing.md) | 🧑 元婴后期     | 压测方法论 · 监控链路 · 瓶颈定位                                                 |
-| 阶段八 | [09 CI/CD 与质量平台](./docs/roadmap/09-quality-engineering.md) | 👁️ 化神期 | CI/CD 流水线集成 · 测试平台 · 精准测试 |
+| 阶段八 | [09 CI/CD、质量平台与精准测试](./docs/roadmap/09-quality-engineering.md) | 👁️ 化神期 | CI/CD 流水线集成 · 测试平台 · 精准测试 |
 | **🤖 AI 时代 · 提效与新赛道**          |                                                                |                 |                                                                                    |
 | 阶段九 | [10 AI 辅助测试](./docs/roadmap/10-ai-assisted-testing.md) | 🦋 婴变初期 | AI 编程提效 · 提示词工程 · AI 生成用例与脚本 · AI 代码审查与失败归因 · MCP / Skill |
-| 阶段十 | [11 AI 应用测试与评测](./docs/roadmap/11-llm-evaluation.md) | ✨ 婴变圆满 | Dify 知识库 / Workflow 搭建 · 评测集建设 · RAG / Agent / 安全评测 · LLM-as-a-Judge · 上线门禁与 bad case 回流 |
+| 阶段十 | [11 AI 应用测试与大模型评测](./docs/roadmap/11-llm-evaluation.md) | ✨ 婴变圆满 | Dify 知识库 / Workflow 搭建 · 评测集建设 · RAG / Agent / 安全评测 · LLM-as-a-Judge · 上线门禁与 bad case 回流 |
 | **🚀 实战与求职 · 把能力兑现成 offer** |                                                                |                 |                                                                                    |
 | 实战                                          | [12 项目实战指南](./docs/roadmap/12-project-practice.md)        | ⚔️ 问鼎初期   | 4 个递进项目：接口框架 → UI/App → 性能定位 → AI 评测平台                        |
 | 面试                                          | [13 面试准备](./docs/roadmap/13-interview-guide.md)             | 🏆 问鼎 · 飞升 | 分类题库 · 项目叙事与表达框架                                                     |

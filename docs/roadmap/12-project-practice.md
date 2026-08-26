@@ -133,4 +133,4 @@ Web 方向建议用 Playwright 或 Selenium，App 方向可以用 Appium。
 - 本仓库 [docs/roadmap](./README.md) 各章的「推荐资源」：项目所需技术栈都在其中。
 - GitHub 搜索 "api-test-framework pytest" / "playwright-pom"：参考优秀开源项目的目录设计（注意：参考结构，不要复制代码当自己的项目）。
 - [macrozheng/mall 等开源业务系统](https://github.com/macrozheng/mall)：找练手被测系统的宝藏库。
-- [AI 测试开发导航 · 精品课程](https://www.testfather.cn/courses)：体系化项目实战课程，与本章四个项目配套。
+- [AI 测试开发导航 · 教程专栏](https://www.testfather.cn/tutorials)：体系化项目实战课程，与本章四个项目配套。

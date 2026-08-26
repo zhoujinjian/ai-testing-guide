@@ -88,4 +88,4 @@
 - 《Google 软件测试之道》：了解 SDET 概念的出处，读故事即可，不必照搬实践。
 - ISTQB 基础级大纲：用例设计方法的系统化梳理，免费可搜，当索引用。
 - [测试窝、TesterHome 社区](https://testerhome.com/)：中文测试社区，看真实测试团队的实践文章。
-- [AI 测试开发导航 · 教程专栏](https://www.testfather.cn/tutorials)：用例设计与测试理论实战教程，与本章配套。
+- [AI 测试开发导航 · 精选课程](https://www.testfather.cn/courses)：用例设计与测试理论实战教程，与本章配套。

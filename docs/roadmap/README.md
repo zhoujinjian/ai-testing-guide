@@ -8,7 +8,7 @@
 | --- | --- | --- | --- | --- |
 | 🧭 认知 | 💨 练气期 | 建立岗位判断力 | 测开做什么 · AI 时代变了什么 | 第 1 章 |
 | 🧱 筑基 | 🧱 筑基期 | 编程与工程功底 | 计算机基础 → 编程语言 → 工程基础 | 第 2-4 章 |
-| 🧪 测试核心 | ⚗️ 结丹 → 👶 元婴 → 👁️ 化神 | 从用例设计到质量工程 | 测试理论 → 接口自动化 → UI/App 与性能（并行）→ CI/CD 与质量平台 | 第 5-9 章 |
+| 🧪 测试核心 | ⚗️ 结丹 → 👶 元婴 → 👁️ 化神 | 从用例设计到质量工程 | 测试理论 → 接口自动化 → UI/App 与性能（并行）→ CI/CD、质量平台与精准测试 | 第 5-9 章 |
 | 🤖 AI 时代 | 🦋 婴变期 | 提效与新赛道 | AI 辅助测试 → AI 应用评测 → AI 质量工程化 | 第 10-11 章 |
 | 🚀 实战与求职 | 🏆 问鼎 · 飞升 | 把能力兑现成 offer | 4 个递进项目 → 面试表达 | 第 12-13 章 |
 
@@ -31,12 +31,12 @@
 | 二 | [03 编程语言](./03-programming.md) | Python 或 Java 主语言 + 单测框架 | 4-6 周 | 阶段一 |
 | 三 | [04 工程基础](./04-engineering-basics.md) | MySQL、Redis、中间件、Linux、Git、Docker/K8s、CI | 2-3 周 | 阶段二 |
 | 四 | [05 测试理论与用例设计](./05-testing-theory.md) | 流程、分类、用例设计方法 | 2 周 | 可与阶段三并行 |
-| 五 | [06 接口测试与接口自动化](./06-api-automation.md) | 工具 + 框架 + 断言体系 | 3-4 周 | 阶段三、四 |
+| 五 | [06 接口测试与接口自动化](./06-api-automation.md) | 工具 + 框架分层 + 断言体系 + Mock 与数据构造 | 3-4 周 | 阶段三、四 |
 | 六 | [07 UI 与 App 自动化](./07-ui-app-automation.md) | Playwright、Selenium、Appium | 3 周 | 阶段五 |
 | 七 | [08 性能与稳定性测试](./08-performance-testing.md) | 压测方法论、监控、瓶颈定位 | 2-3 周 | 阶段五 |
-| 八 | [09 CI/CD 与质量平台](./09-quality-engineering.md) | 流水线、测试平台、精准测试 | 2-3 周 | 阶段五、六 |
-| 九 | [10 AI 辅助测试](./10-ai-assisted-testing.md) | 提示词、AI 编程写测试、AI 审查、MCP | 1-2 周 | 阶段五 |
-| 十 | [11 AI 应用测试与评测](./11-llm-evaluation.md) | Dify 知识库/Workflow、LLM/RAG/Agent 评测 | 2-3 周 | 阶段五 |
+| 八 | [09 CI/CD、质量平台与精准测试](./09-quality-engineering.md) | 流水线、测试平台、精准测试 | 2-3 周 | 阶段五、六 |
+| 九 | [10 AI 辅助测试](./10-ai-assisted-testing.md) | 提示词、AI 编程写测试、AI 代码审查与失败归因、MCP / Skill | 1-2 周 | 阶段五 |
+| 十 | [11 AI 应用测试与大模型评测](./11-llm-evaluation.md) | Dify 知识库/Workflow 搭建、评测集建设、RAG/Agent/安全评测、LLM-as-a-Judge、上线门禁与 bad case 回流 | 2-3 周 | 阶段五 |
 | 实战 | [12 项目实战指南](./12-project-practice.md) | 4 个递进项目 | 贯穿全程 | - |
 | 面试 | [13 面试准备](./13-interview-guide.md) | 分类题库、表达框架 | 求职前 1 个月 | - |
 

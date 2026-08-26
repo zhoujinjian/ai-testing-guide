@@ -91,4 +91,4 @@
 - [Coverage.py 文档](https://coverage.readthedocs.io/)：Python 覆盖率标准工具。
 - [Allure TestOps / 开源 Trace](https://qameta.io/)：报告与用例管理的产品形态参考。
 - 搜「字节跳动 / 美团 精准测试」技术博客：中文圈精准测试实践讲得最透的一批文章。
-- [AI 测试开发导航 · 教程专栏](https://www.testfather.cn/tutorials)：CI/CD 与质量平台建设实战教程。
+- [AI 测试开发导航 · 精选课程](https://www.testfather.cn/courses)：CI/CD 与质量平台建设实战教程。
