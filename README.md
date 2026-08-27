@@ -1,11 +1,15 @@
 <h1 align="center">🔥 AI 测试开发学习路线大全</h1>
 
 <p align="center">
+  <a href="./README.md">简体中文</a> · <a href="./README.en.md">English</a>
+</p>
+
+<p align="center">
   <b>从功能测试到质量工程的完整成长地图：先练扎实基本功，再借 AI 提效 —— 免费开源，持续更新 🚀</b>
 </p>
 
 <p align="center">
-  <a href="https://www.testfather.cn/"><img src="https://img.shields.io/badge/在线阅读-testfather.cn-blue?style=for-the-badge" alt="在线阅读"/></a>
+  <a href="https://www.testfather.cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/在线阅读-testfather.cn-blue?style=for-the-badge" alt="在线阅读"/></a>
   <a href="https://github.com/zhoujinjian/ai-testing-guide"><img src="https://img.shields.io/github/stars/zhoujinjian/ai-testing-guide?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"/></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=for-the-badge" alt="License: CC BY-NC-SA 4.0"/></a>
 </p>

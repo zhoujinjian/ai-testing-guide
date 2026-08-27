@@ -11,6 +11,9 @@ node_modules/
 dist/
 .cache/
 
+# 本地工具脚本与汇总产物（不入库）
+scripts/
+
 # 临时文件
 *.log
 *.tmp
