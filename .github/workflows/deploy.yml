@@ -53,8 +53,7 @@ jobs:
           curl -s -o /dev/null -w "线上状态: HTTP %{http_code}\n" https://ai.testfather.cn/
 
       - name: Push URLs to Baidu
-        if: ${{ secrets.BAIDU_PUSH_API != '' }}
-        continue-on-error: true # 推送失败不阻断发布
+        continue-on-error: true # 推送失败不阻断发布（if 中不可用 secrets 上下文，故不做空值判断）
         run: |
           grep -o '<loc>[^<]*</loc>' docs/.vuepress/dist/sitemap.xml | sed 's/<[^>]*>//g' > urls.txt
           echo "待推送 URL 数: $(wc -l < urls.txt | tr -d ' ')"
