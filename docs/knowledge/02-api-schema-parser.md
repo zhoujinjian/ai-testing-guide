@@ -216,9 +216,9 @@ AI 赋能接口自动化测试，从来不是 "一劳永逸的魔法"，而是�
 接口自动化 · 脚本开发
 
 - [02 文档智能解析](./02-api-schema-parser.md)，api-schema-parser
-- 03 测试数据构造，api-testdata-generator
-- 04 脚本批量生成，api-testscript-generator
-- 05 脚本质量优化，api-test-optimizer
+- [03 测试数据构造](./03-api-testdata-generator.md)，api-testdata-generator
+- [04 脚本批量生成](./04-api-testscript-generator.md)，api-testscript-generator
+- [05 脚本质量优化](./05-api-test-optimizer.md)，api-test-optimizer
 
 接口自动化 · 执行运营
 

@@ -17,7 +17,10 @@ description: 学习路线配套的单篇深入教程：Playwright 实战、pytes
 | --- | --- | --- |
 | [01 用例设计四件套](./01-testcase-design-toolkit.md) | 从需求拆解到质量评审 | generator-testcase-xmind / excel · safe-testcase · review-testcase |
 | [02 接口文档智能解析](./02-api-schema-parser.md) | 多源接口定义统一解析 | api-schema-parser |
-| 03-19 | 接口自动化 · UI 自动化全链路 | 待收录 |
+| [03 测试数据构造](./03-api-testdata-generator.md) | 全场景测试数据智能构造 | api-testdata-generator |
+| [04 脚本批量生成](./04-api-testscript-generator.md) | 分层架构脚本批量生成 | api-testscript-generator |
+| [05 脚本质量优化](./05-api-test-optimizer.md) | 4 类校验 + 10 维补齐 + 6 大优化 | api-test-optimizer |
+| 06-19 | 执行运营 · UI 自动化全链路 | 待收录 |
 
 ## 规划主题
 

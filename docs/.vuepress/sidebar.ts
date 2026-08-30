@@ -55,6 +55,9 @@ export const sidebar: SidebarOptions = {
       children: [
         { text: "01 用例设计四件套", link: "/knowledge/01-testcase-design-toolkit.html" },
         { text: "02 接口文档智能解析", link: "/knowledge/02-api-schema-parser.html" },
+        { text: "03 测试数据构造", link: "/knowledge/03-api-testdata-generator.html" },
+        { text: "04 脚本批量生成", link: "/knowledge/04-api-testscript-generator.html" },
+        { text: "05 脚本质量优化", link: "/knowledge/05-api-test-optimizer.html" },
       ],
     },
   ],
