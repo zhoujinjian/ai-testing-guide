@@ -3,11 +3,21 @@ title: 实战教程
 description: 学习路线配套的单篇深入教程：Playwright 实战、pytest 体系、Allure 定制、JMeter 压测、DeepEval 评测等主题规划与认领。
 ---
 
-# 实战教程（规划中）
+# 实战教程
 
 > 本板块篇幅有限，以**分享核心思路**为主。**完整的保姆级实战教程**（环境搭建到落地实操），请前往 [AI 测开导航 · 教程专栏](https://www.testfather.cn/tutorials) 学习。
 
 这个目录用于存放学习路线中各阶段的单篇深入教程。路线（[docs/roadmap](../roadmap/README.md)）回答「学什么、按什么顺序」，本目录回答「某个具体技能怎么落地」。
+
+## 已收录：AI 测试实战系列
+
+围绕「AI + Agent Skill 赋能测试全流程」的实战系列（共 19 篇），基于实战项目 shop-lab 拆解，覆盖用例设计、接口自动化、UI 自动化全链路。
+
+| 篇目 | 主题 | 核心 Skill |
+| --- | --- | --- |
+| [01 用例设计四件套](./01-testcase-design-toolkit.md) | 从需求拆解到质量评审 | generator-testcase-xmind / excel · safe-testcase · review-testcase |
+| [02 接口文档智能解析](./02-api-schema-parser.md) | 多源接口定义统一解析 | api-schema-parser |
+| 03-19 | 接口自动化 · UI 自动化全链路 | 待收录 |
 
 ## 规划主题
 

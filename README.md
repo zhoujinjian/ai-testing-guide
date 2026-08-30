@@ -64,7 +64,7 @@
 | 目录                                        | 状态     | 说明                                               |
 | ------------------------------------------- | -------- | -------------------------------------------------- |
 | [docs/roadmap](./docs/roadmap/README.md)     | 持续更新 | 学习路线主线，按阶段成章                           |
-| [docs/knowledge](./docs/knowledge/README.md) | 规划中   | 实战教程：Playwright 实战、JMeter 报告解读等单篇落地教程 |
+| [docs/knowledge](./docs/knowledge/README.md) | 持续更新 | 实战教程：AI 测试实战系列（用例设计/接口自动化/UI 自动化）等 |
 | [docs/interview](./docs/interview/README.md) | 规划中   | 分类面试题库与参考回答                             |
 | [docs/resources](./docs/resources/README.md) | 规划中   | 工具清单、书籍与课程汇总                           |
 

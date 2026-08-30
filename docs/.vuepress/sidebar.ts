@@ -49,7 +49,14 @@ export const sidebar: SidebarOptions = {
   // 以下板块内容上线后在此扩展目录结构
   "/knowledge/": [
     { text: "实战教程", link: "/knowledge/" },
-    { text: "规划主题", link: "/knowledge/" },
+    {
+      text: "AI 测试实战系列",
+      collapsible: false,
+      children: [
+        { text: "01 用例设计四件套", link: "/knowledge/01-testcase-design-toolkit.html" },
+        { text: "02 接口文档智能解析", link: "/knowledge/02-api-schema-parser.html" },
+      ],
+    },
   ],
   "/interview/": [
     { text: "题库首页", link: "/interview/" },
