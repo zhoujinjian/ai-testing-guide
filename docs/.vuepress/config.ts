@@ -30,6 +30,8 @@ export default defineUserConfig({
   head: [
     // 百度搜索资源平台站点验证
     ["meta", { name: "baidu-site-verification", content: "codeva-zUJJgNqjW2" }],
+    // Google Search Console 站点验证
+    ["meta", { name: "google-site-verification", content: "OCAP1Z7KuYZc6ExHaGOfoFNBZwPP1tl3beG1S_kgSj8" }],
     ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
     ["link", { rel: "icon", href: "/favicon-32.png", sizes: "32x32" }],
     ["link", { rel: "apple-touch-icon", href: "/apple-touch-icon.png" }],

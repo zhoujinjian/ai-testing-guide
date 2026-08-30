@@ -51,3 +51,11 @@ jobs:
       - name: Verify deployment
         run: |
           curl -s -o /dev/null -w "线上状态: HTTP %{http_code}\n" https://ai.testfather.cn/
+
+      - name: Push URLs to Baidu
+        if: ${{ secrets.BAIDU_PUSH_API != '' }}
+        continue-on-error: true # 推送失败不阻断发布
+        run: |
+          grep -o '<loc>[^<]*</loc>' docs/.vuepress/dist/sitemap.xml | sed 's/<[^>]*>//g' > urls.txt
+          echo "待推送 URL 数: $(wc -l < urls.txt | tr -d ' ')"
+          curl -s -H 'Content-Type: text/plain' --data-binary @urls.txt "${{ secrets.BAIDU_PUSH_API }}"
