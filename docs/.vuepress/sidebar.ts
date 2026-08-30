@@ -61,6 +61,7 @@ export const sidebar: SidebarOptions = {
         { text: "02 LLM 知识库问答测试方案设计", link: "/interview/llm-testing/02-llm-kb-qa-test-plan.html" },
         { text: "03 大模型评测维度划分", link: "/interview/llm-testing/03-evaluation-dimensions.html" },
         { text: "04 测模型与测应用的边界", link: "/interview/llm-testing/04-model-vs-application-testing.html" },
+        { text: "05 上线门禁怎么定", link: "/interview/llm-testing/05-release-gate.html" },
       ],
     },
   ],

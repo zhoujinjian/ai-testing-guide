@@ -10,7 +10,7 @@ actions:
   - text: 按背景选路线
     link: /roadmap/#三条定制路线
     type: secondary
-  - text: 配套导航站
+  - text: 学习社区
     link: https://www.testfather.cn/
     type: secondary
 features:
