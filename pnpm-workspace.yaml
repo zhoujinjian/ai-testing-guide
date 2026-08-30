@@ -1,0 +1,4 @@
+# pnpm 11+ 构建脚本许可（esbuild 为 vite/vuepress 必需；parcel/watcher 为 sass 文件监听组件）
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true

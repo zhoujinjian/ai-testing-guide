@@ -6,10 +6,17 @@
 .vscode/
 *.swp
 
-# Node（后续若引入文档站点）
+# Node（文档站点）
 node_modules/
 dist/
 .cache/
+
+# VuePress 构建产物与缓存（注意 temp/cache 是带点前缀的隐藏目录）
+docs/.vuepress/dist/
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
+docs/.vuepress/cache/
+docs/.vuepress/temp/
 
 # 本地工具脚本与汇总产物（不入库）
 scripts/
@@ -17,3 +24,6 @@ scripts/
 # 临时文件
 *.log
 *.tmp
+
+# 开发过程文档（站点建设方案，仅本地使用，不入库）
+SITE_PLAN.md

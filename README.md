@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.testfather.cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/在线阅读-testfather.cn-blue?style=for-the-badge" alt="在线阅读"/></a>
+  <a href="https://ai.testfather.cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/在线阅读-ai.testfather.cn-blue?style=for-the-badge" alt="在线阅读"/></a>
   <a href="https://github.com/zhoujinjian/ai-testing-guide"><img src="https://img.shields.io/github/stars/zhoujinjian/ai-testing-guide?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"/></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=for-the-badge" alt="License: CC BY-NC-SA 4.0"/></a>
 </p>
@@ -93,12 +93,13 @@
 
 修练路上有道友同行会走得更远，欢迎通过以下方式和我连接：
 
-| 作者微信（备注「测开学习」） | 官方公众号「测试开发技术」 |
-| ---------------------------- | -------------------------- |
-| ![作者微信](./assets/images/wechat-author.png) | ![公众号](./assets/images/wechat-mp-qrcode.png) |
+| 作者微信（备注「测开学习」） | 官方公众号「测试开发技术」 | 知识星球（微信扫码加入星球） |
+| ---------------------------- | -------------------------- | ---------------------------- |
+| <img src="./assets/images/wechat-author.png" width="258" alt="作者微信"/> | <img src="./assets/images/wechat-mp-qrcode.png" width="258" alt="公众号"/> | <img src="./assets/images/zsxq.png" width="258" alt="知识星球"/> |
 
 - **作者微信**：加好友备注「测开学习」，拉你进测试开发交流群，和一群同行者互相督促
 - **官方公众号「测试开发技术」**：AI 提效技巧、测开技术干货、行业动态，内容更新第一时间推送
+- **知识星球**：微信扫码加入星球，与更多测开同行者深度交流
 
 ## 参与共建
 

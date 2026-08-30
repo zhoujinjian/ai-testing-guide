@@ -1,0 +1,103 @@
+// 首页五大板块卡片：宽屏下三列排布（上排三个、下排两个左对齐），窄屏回落主题默认
+@media (min-width: 1280px) {
+  .vp-project-home .vp-features {
+    display: flex;
+    flex-wrap: wrap;
+    // 主题容器自带 place-content: stretch center（换行后的卡片会居中），
+    // 左对齐需要显式覆盖
+    justify-content: flex-start;
+    gap: 1rem;
+
+    .vp-feature-item {
+      margin: 0;
+      // 主题默认在 PC 宽屏是 flex-basis: calc(25% - 3rem)（一行 4 张），
+      // flex 容器中 flex-basis 优先于 width，必须覆盖它；
+      // 主题按内容盒计算（1rem 内边距会另加 32px），需切 border-box 使 flex-basis 即总宽
+      box-sizing: border-box;
+      flex-basis: calc((100% - 2rem) / 3); // 3 列，扣除 2 个 gap
+    }
+  }
+}
+
+// 顶部导航菜单字体加大（主题默认 0.875rem）
+.vp-nav-links {
+  font-size: 1rem;
+}
+
+// 图标尺寸与对齐（本地内嵌 SVG，颜色已烘焙为主题强调色）
+.vp-feature-item .vp-feature-title img {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.28em;
+  margin-right: 0.35em;
+}
+
+// ===== 沉浸式阅读 =====
+// 切换开关由 client.ts 注入 body，html.layout-hidden 由按钮 toggle
+.immersive-toggle-btn {
+  position: fixed;
+  // 右下角垂直堆叠：位于「返回顶部」按钮正上方、右缘对齐成一列
+  // 返回顶部按钮 bottom:64px 高 48px（顶到 112px），此处 bottom:136px 留 24px 间隙
+  right: 1rem;
+  bottom: 8.5rem;
+  z-index: 120;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 999px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-mute, var(--vp-c-text));
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+
+  svg {
+    flex-shrink: 0;
+  }
+
+  &:hover {
+    color: var(--vp-c-accent);
+    border-color: var(--vp-c-accent);
+  }
+
+  &.active {
+    background: var(--vp-c-accent);
+    border-color: var(--vp-c-accent);
+    color: #fff;
+  }
+}
+
+html.layout-hidden {
+  // 隐藏导航栏（上移）、侧边栏、右侧页内目录
+  .vp-navbar {
+    transform: translateY(-100%);
+  }
+
+  .vp-sidebar {
+    display: none;
+  }
+
+  .vp-toc-placeholder {
+    display: none;
+  }
+
+  // 正文区顶到页首，内容列居中放宽
+  .vp-page {
+    // 内容列从默认 780px 放宽到 980px，配合下方对称 padding 居中
+    --content-width: 980px;
+    padding-top: 1.5rem;
+    padding-right: max(2rem, calc((100% - 980px) / 2));
+    padding-left: max(2rem, calc((100% - 980px) / 2));
+  }
+
+  @media (max-width: 1080px) {
+    .vp-page {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
+  }
+}

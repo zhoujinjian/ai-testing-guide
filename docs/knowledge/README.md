@@ -1,3 +1,8 @@
+---
+title: 知识点深入
+description: 学习路线配套的单篇深入教程：Playwright 实战、pytest 体系、Allure 定制、JMeter 压测、DeepEval 评测等主题规划与认领。
+---
+
 # 知识点深入（规划中）
 
 这个目录用于存放学习路线中各阶段的单篇深入教程。路线（[docs/roadmap](../roadmap/README.md)）回答「学什么、按什么顺序」，本目录回答「某个具体技能怎么落地」。
@@ -16,4 +21,4 @@
 
 ## 贡献
 
-欢迎认领以上主题或提出新主题，参见[贡献指南](../../CONTRIBUTING.md)。文件命名用英文 slug（如 `playwright-in-action.md`），标题用中文。
+欢迎认领以上主题或提出新主题，参见[贡献指南](/about/contributing.html)。文件命名用英文 slug（如 `playwright-in-action.md`），标题用中文。

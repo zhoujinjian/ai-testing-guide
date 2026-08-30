@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.testfather.cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Read_Online-testfather.cn-blue?style=for-the-badge" alt="Read Online"/></a>
+  <a href="https://ai.testfather.cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Read_Online-ai.testfather.cn-blue?style=for-the-badge" alt="Read Online"/></a>
   <a href="https://github.com/zhoujinjian/ai-testing-guide"><img src="https://img.shields.io/github/stars/zhoujinjian/ai-testing-guide?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"/></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=for-the-badge" alt="License: CC BY-NC-SA 4.0"/></a>
 </p>
@@ -95,12 +95,13 @@ This repository is built alongside the [AI Test Development Hub](https://www.tes
 
 The cultivation journey goes further with fellow travelers. Connect with me via:
 
-| Author's WeChat (remark: 测开学习) | Official WeChat Account 「测试开发技术」 |
-| --- | --- |
-| ![Author's WeChat](./assets/images/wechat-author.png) | ![Official Account](./assets/images/wechat-mp-qrcode.png) |
+| Author's WeChat (remark: 测开学习) | Official WeChat Account 「测试开发技术」 | Knowledge Planet (scan to join, Chinese) |
+| --- | --- | --- |
+| <img src="./assets/images/wechat-author.png" width="258" alt="Author's WeChat"/> | <img src="./assets/images/wechat-mp-qrcode.png" width="258" alt="Official Account"/> | <img src="./assets/images/zsxq.png" width="258" alt="Knowledge Planet"/> |
 
 - **Author's WeChat**: add me with the remark "测开学习" (SDET learning) to join the test development group and keep pace with fellow learners
 - **Official WeChat Account 「测试开发技术」**: AI productivity tips, SDET technical deep dives, and industry updates, pushed as soon as they're published
+- **Knowledge Planet**: scan the QR code to join the community for in-depth exchanges with fellow SDETs
 
 ## Contributing
 
