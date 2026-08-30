@@ -28,6 +28,8 @@ export default defineUserConfig({
   base: "/",
 
   head: [
+    // 百度搜索资源平台站点验证
+    ["meta", { name: "baidu-site-verification", content: "codeva-zUJJgNqjW2" }],
     ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
     ["link", { rel: "icon", href: "/favicon-32.png", sizes: "32x32" }],
     ["link", { rel: "apple-touch-icon", href: "/apple-touch-icon.png" }],
