@@ -48,7 +48,7 @@ export const sidebar: SidebarOptions = {
 
   // 以下板块内容上线后在此扩展目录结构
   "/knowledge/": [
-    { text: "技术分享", link: "/knowledge/" },
+    { text: "实战教程", link: "/knowledge/" },
     { text: "规划主题", link: "/knowledge/" },
   ],
   "/interview/": [
