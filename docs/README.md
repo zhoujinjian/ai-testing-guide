@@ -1,5 +1,6 @@
 ---
 home: true
+description: 从功能测试到质量工程的完整成长地图：13 章学习路线 + 大模型面试题库 + AI 测试实战教程，传统测开功底与 AI 时代新赛道，免费开源持续更新。
 heroImage: /images/roadmap-banner.jpg
 heroText: AI 测试开发学习路线
 tagline: 从功能测试到质量工程的完整成长地图 —— 先练扎实基本功，再借 AI 提效。免费开源，持续更新。
