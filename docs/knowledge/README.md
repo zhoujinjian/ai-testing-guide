@@ -1,9 +1,9 @@
 ---
-title: 知识点深入
+title: 技术分享
 description: 学习路线配套的单篇深入教程：Playwright 实战、pytest 体系、Allure 定制、JMeter 压测、DeepEval 评测等主题规划与认领。
 ---
 
-# 知识点深入（规划中）
+# 技术分享（规划中）
 
 这个目录用于存放学习路线中各阶段的单篇深入教程。路线（[docs/roadmap](../roadmap/README.md)）回答「学什么、按什么顺序」，本目录回答「某个具体技能怎么落地」。
 

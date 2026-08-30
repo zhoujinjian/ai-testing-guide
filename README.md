@@ -64,7 +64,7 @@
 | 目录                                        | 状态     | 说明                                               |
 | ------------------------------------------- | -------- | -------------------------------------------------- |
 | [docs/roadmap](./docs/roadmap/README.md)     | 持续更新 | 学习路线主线，按阶段成章                           |
-| [docs/knowledge](./docs/knowledge/README.md) | 规划中   | 知识点单篇深入：Playwright 实战、JMeter 报告解读等 |
+| [docs/knowledge](./docs/knowledge/README.md) | 规划中   | 技术分享：Playwright 实战、JMeter 报告解读等单篇教程 |
 | [docs/interview](./docs/interview/README.md) | 规划中   | 分类面试题库与参考回答                             |
 | [docs/resources](./docs/resources/README.md) | 规划中   | 工具清单、书籍与课程汇总                           |
 
