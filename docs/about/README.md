@@ -29,6 +29,8 @@ description: AI 测试开发学习路线的定位、适合人群、配套资源�
 
 ## 版权与转载声明
 
+本站由 [鄂ICP备2025148041号-1](https://beian.miit.gov.cn/) 主体运营。
+
 - 本站文档内容采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议发布：
   - ✅ 个人学习、博客署名转载自由（请注明出处并保留链接）
   - ❌ 未经授权，禁止用于商业用途、付费专栏、培训课程

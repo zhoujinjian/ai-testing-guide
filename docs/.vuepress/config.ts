@@ -61,7 +61,7 @@ export default defineUserConfig({
     sidebar,
 
     footer:
-      '内容遵循 CC BY-NC-SA 4.0 协议 · 作者 狂师 · 与 <a href="https://www.testfather.cn/" target="_blank" rel="noopener">AI 测试开发导航</a> 配套建设',
+      '内容遵循 CC BY-NC-SA 4.0 协议 · 作者 狂师 · 与 <a href="https://www.testfather.cn/" target="_blank" rel="noopener">AI 测试开发导航</a> 配套建设<br/><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">鄂ICP备2025148041号-1</a>',
     displayFooter: true,
 
     plugins: {

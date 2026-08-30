@@ -1,0 +1,53 @@
+name: Deploy Site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "assets/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # git 插件（更新时间/贡献者）需要完整历史
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build site
+        run: pnpm build
+
+      - name: Deploy to server
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avz --delete
+          path: docs/.vuepress/dist/
+          remote_path: /var/www/ai-testing-guide/
+          remote_host: ${{ secrets.SERVER_HOST }}
+          remote_user: ${{ secrets.SERVER_USER }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Verify deployment
+        run: |
+          curl -s -o /dev/null -w "线上状态: HTTP %{http_code}\n" https://ai.testfather.cn/

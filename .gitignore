@@ -18,12 +18,13 @@ docs/.vuepress/.cache/
 docs/.vuepress/cache/
 docs/.vuepress/temp/
 
-# 本地工具脚本与汇总产物（不入库）
+# 本地管理员工具与汇总产物（不入库）
 scripts/
 
 # 临时文件
 *.log
 *.tmp
 
-# 开发过程文档（站点建设方案，仅本地使用，不入库）
+# 开发过程文档（站点建设方案与部署运维手册，仅本地使用，不入库）
 SITE_PLAN.md
+DEPLOYMENT.md

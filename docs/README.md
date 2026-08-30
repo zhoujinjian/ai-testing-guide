@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: assets/images/roadmap-banner.jpg
+heroImage: /images/roadmap-banner.jpg
 heroText: AI 测试开发学习路线
 tagline: 从功能测试到质量工程的完整成长地图 —— 先练扎实基本功，再借 AI 提效。免费开源，持续更新。
 actions:
