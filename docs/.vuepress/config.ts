@@ -22,7 +22,7 @@ export default defineUserConfig({
   }),
 
   lang: "zh-CN",
-  title: "AI 测试开发学习路线",
+  title: "2026年最新AI 测试开发学习路线",
   description:
     "从功能测试到质量工程的完整成长地图：传统测开功底 + AI 时代新赛道，免费开源持续更新",
   base: "/",
