@@ -370,9 +370,9 @@ v3.0 智能运维（接口变更自动感知更新）
 
 接口自动化 · 执行运营
 
-- 06 智能执行调度，api-test-executor
-- 07 失败自动诊断修复，api-failure-diagnoser
-- 08 测试数据清理，api-testdata-cleaner
+- [06 智能执行调度](./06-api-test-executor.md)，api-test-executor
+- [07 失败自动诊断修复](./07-api-failure-diagnoser.md)，api-failure-diagnoser
+- [08 测试数据清理](./08-api-testdata-cleaner.md)，api-testdata-cleaner
 - 09 测试报告生成，api-report-generator
 - 10 全链路流水线编排，api-pipeline-scheduler
 

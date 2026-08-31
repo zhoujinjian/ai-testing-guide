@@ -20,7 +20,10 @@ description: 学习路线配套的单篇深入教程：Playwright 实战、pytes
 | [03 测试数据构造](./03-api-testdata-generator.md) | 全场景测试数据智能构造 | api-testdata-generator |
 | [04 脚本批量生成](./04-api-testscript-generator.md) | 分层架构脚本批量生成 | api-testscript-generator |
 | [05 脚本质量优化](./05-api-test-optimizer.md) | 4 类校验 + 10 维补齐 + 6 大优化 | api-test-optimizer |
-| 06-19 | 执行运营 · UI 自动化全链路 | 待收录 |
+| [06 智能执行调度](./06-api-test-executor.md) | 自然语言触发执行 + 多维筛选 | api-test-executor |
+| [07 失败自动诊断修复](./07-api-failure-diagnoser.md) | 四分类诊断 + 自动修复，25%→98.7% 自愈 | api-failure-diagnoser |
+| [08 测试数据清理](./08-api-testdata-cleaner.md) | 三层清理 + 白名单 + 生产拦截 | api-testdata-cleaner |
+| 09-19 | 报告生成 · 流水线编排 · UI 自动化全链路 | 待收录 |
 
 ## 规划主题
 
