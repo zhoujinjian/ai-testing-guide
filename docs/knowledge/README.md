@@ -11,7 +11,7 @@ description: 学习路线配套的单篇深入教程：Playwright 实战、pytes
 
 ## 已收录：AI 测试实战系列
 
-围绕「AI + Agent Skill 赋能测试全流程」的实战系列（共 19 篇），基于实战项目 shop-lab 拆解，覆盖用例设计、接口自动化、UI 自动化全链路。
+围绕「AI + Agent Skill 赋能测试全流程」的实战系列（共 19 篇），基于实战项目 shop-lab 拆解，覆盖用例设计、接口自动化、UI 自动化全链路。**19 篇已全部收录。**
 
 | 篇目 | 主题 | 核心 Skill |
 | --- | --- | --- |
@@ -25,7 +25,15 @@ description: 学习路线配套的单篇深入教程：Playwright 实战、pytes
 | [08 测试数据清理](./08-api-testdata-cleaner.md) | 三层清理 + 白名单 + 生产拦截 | api-testdata-cleaner |
 | [09 测试报告生成](./09-api-report-generator.md) | 11 分区定制报告 + Allure 双报告联动 | api-report-generator |
 | [10 全链路流水线编排](./10-api-pipeline-scheduler.md) | 一键编排「执行 → 清理 → 报告」全流程 | api-pipeline-scheduler |
-| 11-19 | UI 自动化全链路 | 待收录 |
+| [11 UI 页面解析](./11-ui-page-parser.md) | 页面定义标准化 pages.yaml | ui-page-parser |
+| [12 UI 脚本批量生成](./12-ui-testscript-generator.md) | POM 工程一键生成 | ui-testscript-generator |
+| [13 UI 脚本健壮性增强](./13-ui-testscript-enhancer.md) | 智能等待 + 弹窗/验证码 + 证据保全 | ui-testscript-enhancer |
+| [14 视觉断言与多浏览器适配](./14-ui-visual-assert.md) | 像素级比对 + 三引擎 + 多视口 | ui-visual-assert |
+| [15 UI 智能执行调度](./15-ui-test-executor.md) | 环境检测 + 多维筛选 + 六类失败证据 | ui-test-executor |
+| [16 UI 失败自动诊断修复](./16-ui-failure-diagnoser.md) | 证据驱动的根因定位与修复 | ui-failure-diagnoser |
+| [17 UI 测试报告生成](./17-ui-report-generator.md) | 四源融合单文件 HTML 报告 | ui-report-generator |
+| [18 UI 全链路流水线编排](./18-ui-pipeline-scheduler.md) | 执行→修复→重试→报告闭环编排 | ui-pipeline-scheduler |
+| [19 全流程串联收官](./19-ui-full-flow-integration.md) | 4+1 Skill 架构全景收官 | 4+1 Skill 架构 |
 
 ## 规划主题
 
