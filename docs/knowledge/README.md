@@ -11,7 +11,7 @@ description: 学习路线配套的单篇深入教程：Playwright 实战、pytes
 
 ## 已收录：AI 测试实战系列
 
-围绕「AI + Agent Skill 赋能测试全流程」的实战系列（共 19 篇），基于实战项目 shop-lab 拆解，覆盖用例设计、接口自动化、UI 自动化全链路。**19 篇已全部收录。**
+围绕「AI + Agent Skill 赋能测试全流程」的实战系列（共 20 篇），基于实战项目 shop-lab 拆解，覆盖用例设计、接口自动化、UI 自动化全链路。**20 篇已全部收录。**
 
 | 篇目 | 主题 | 核心 Skill |
 | --- | --- | --- |
@@ -33,7 +33,8 @@ description: 学习路线配套的单篇深入教程：Playwright 实战、pytes
 | [16 UI 失败自动诊断修复](./16-ui-failure-diagnoser.md) | 证据驱动的根因定位与修复 | ui-failure-diagnoser |
 | [17 UI 测试报告生成](./17-ui-report-generator.md) | 四源融合单文件 HTML 报告 | ui-report-generator |
 | [18 UI 全链路流水线编排](./18-ui-pipeline-scheduler.md) | 执行→修复→重试→报告闭环编排 | ui-pipeline-scheduler |
-| [19 全流程串联收官](./19-ui-full-flow-integration.md) | 4+1 Skill 架构全景收官 | 4+1 Skill 架构 |
+| [19 脚本生成流水线串联](./19-ui-script-pipeline.md) | 解析→生成→增强→适配→维护闭环 | ui-page-parser 等 4+1 |
+| [20 执行到报告全流程串联](./20-ui-full-flow-integration.md) | 标签→执行→诊断→报告编排收官 | ui-test-executor 等 4+1 |
 
 ## 规划主题
 

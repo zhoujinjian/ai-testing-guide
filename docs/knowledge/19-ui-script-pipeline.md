@@ -1,11 +1,11 @@
 ---
-title: 19 UI 自动化·全流程串联实战：4+1 Skill 架构收官
-description: AI 测试实战系列第 19 篇（收官）。4+1 Skill 架构全景：ui-page-parser、ui-testscript-generator、ui-testscript-enhancer、ui-visual-assert 四个专业 Skill，加 ui-pipeline-scheduler 统一编排，串起 UI 自动化全流程。
+title: 19 UI 自动化·脚本生成流水线串联：4+1 Skill 实战
+description: AI 测试实战系列第 19 篇。脚本生成侧 4+1 架构实战：ui-page-parser 解析 → ui-testscript-generator 生成 → ui-testscript-enhancer 增强 → ui-visual-assert 适配，可选 ui-auto-maintainer 自愈维护，串起「解析 → 生成 → 增强 → 适配 → 维护」完整闭环。
 ---
 
-# AI 测试实战系列 19｜UI 自动化·全流程串联实战：4+1 Skill 架构收官
+# AI 测试实战系列 19｜UI 自动化·脚本生成流水线串联：4+1 Skill 实战
 
-> AI 测试实战系列（共 19 篇）｜ 01 用例设计（接口/UI 通用） · 接口自动化 02-10 · UI 自动化 11-19 ｜ 本文第 19 篇
+> AI 测试实战系列（共 20 篇）｜ 01 用例设计（接口/UI 通用） · 接口自动化 02-10 · UI 自动化 11-20 ｜ 本文第 19 篇
 
 ---
 
@@ -31,7 +31,7 @@ description: AI 测试实战系列第 19 篇（收官）。4+1 Skill 架构全�
 
 但这里有一个关键问题，**不能搞「万能 Skill」，要按职责拆成「专业 Skill」。**
 
-这篇文章，就带你完整看清楚，一套 4+1 个 Agent Skill 是怎么串起 UI 自动化全流程的。
+这篇文章，就带你完整看清楚，一套 4+1 个 Agent Skill 是怎么串起 UI 自动化脚本生成全流程的。
 
 ## 一、UI 自动化的痛，远不止抓元素
 
@@ -58,7 +58,7 @@ description: AI 测试实战系列第 19 篇（收官）。4+1 Skill 架构全�
 
 ## 二、4+1 Skill 全流程架构
 
-先看全貌。整套 UI 自动化的 AI 赋能链路，由 **4 个核心 Skill + 1 个可选 Skill** 组成，形成完整闭环（其实当前不算整套闭环，还有执行、自愈、报告生成等7个核心 skill 还没讲）：
+先看全貌。整套 UI 自动化的 AI 赋能链路，由 **4 个核心 Skill + 1 个可选 Skill** 组成，形成完整闭环（本篇聚焦脚本生成侧的串联，执行、诊断、报告那一侧怎么串，见系列 20 收官篇）：
 
 | Skill | 核心职责 | 解决什么痛点 |
 | :--- | :--- | :--- |
@@ -417,6 +417,8 @@ UI 自动化的头号杀手不是技术难度，而是维护成本。前端改�
 3. ui-testscript-enhancer：健壮性增强（系列 13） — 等待 + 异常 + 弹窗 + 验证码 + 截图
 4. ui-visual-assert：视觉断言与多浏览器适配（系列 14） — 视觉级验证 + 跨浏览器兼容
 
+脚本生成这一侧串完了，执行到报告那一侧的串联（标签 → 执行 → 诊断 → 报告），是系列 20 收官篇的内容。
+
 ---
 
 **配套资源**
@@ -424,7 +426,7 @@ UI 自动化的头号杀手不是技术难度，而是维护成本。前端改�
 - Skill 工具包下载，https://www.testfather.cn/skills（星球成员已含网站会员，登录直接领）
 - 完整开发设计教程与项目源码（含 30+ AI 测试全场景 Agent Skill），见「狂师 . AI 进化社」
 
-**系列导航**（AI 测试实战系列，共 19 篇）
+**系列导航**（AI 测试实战系列，共 20 篇）
 
 测前设计（接口 / UI 通用）
 
@@ -451,6 +453,7 @@ UI 自动化 · 脚本开发
 - [12 脚本批量生成](./12-ui-testscript-generator.md)，ui-testscript-generator
 - [13 脚本健壮性增强](./13-ui-testscript-enhancer.md)，ui-testscript-enhancer
 - [14 视觉断言与多浏览器适配](./14-ui-visual-assert.md)，ui-visual-assert
+- [19 脚本生成流水线串联](./19-ui-script-pipeline.md)，4+1 Skill 实战
 
 UI 自动化 · 执行运营
 
@@ -458,4 +461,4 @@ UI 自动化 · 执行运营
 - [16 失败自动诊断修复](./16-ui-failure-diagnoser.md)，ui-failure-diagnoser
 - [17 测试报告生成](./17-ui-report-generator.md)，ui-report-generator
 - [18 全链路流水线编排](./18-ui-pipeline-scheduler.md)，ui-pipeline-scheduler
-- [19 全流程串联实战](./19-ui-full-flow-integration.md)，4+1 Skill 架构收官
+- [20 执行到报告全流程串联](./20-ui-full-flow-integration.md)，4+1 Skill 架构收官（全系列完结）

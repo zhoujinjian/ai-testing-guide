@@ -5,7 +5,7 @@ description: AI 测试实战系列第 13 篇。为已生成脚本补健壮性：
 
 # AI 测试实战系列 13｜UI 自动化·脚本健壮性增强：ui-testscript-enhancer
 
-> AI 测试实战系列（共 19 篇）｜ 01 用例设计（接口/UI 通用） · 接口自动化 02-10 · UI 自动化 11-19 ｜ 本文第 13 篇
+> AI 测试实战系列（共 20 篇）｜ 01 用例设计（接口/UI 通用） · 接口自动化 02-10 · UI 自动化 11-20 ｜ 本文第 13 篇
 
 ---
 
@@ -343,7 +343,7 @@ ui-test-automation/        ← 基础 UI 测试脚本工程
 - Skill 工具包下载，https://www.testfather.cn/skills（星球成员已含网站会员，登录直接领）
 - 完整开发设计教程与项目源码（含 30+ AI 测试全场景 Agent Skill），见「狂师 . AI 进化社」
 
-**系列导航**（AI 测试实战系列，共 19 篇）
+**系列导航**（AI 测试实战系列，共 20 篇）
 
 测前设计（接口 / UI 通用）
 
@@ -370,6 +370,7 @@ UI 自动化 · 脚本开发
 - [12 脚本批量生成](./12-ui-testscript-generator.md)，ui-testscript-generator
 - [13 脚本健壮性增强](./13-ui-testscript-enhancer.md)，ui-testscript-enhancer
 - [14 视觉断言与多浏览器适配](./14-ui-visual-assert.md)，ui-visual-assert
+- [19 脚本生成流水线串联](./19-ui-script-pipeline.md)，4+1 Skill 实战
 
 UI 自动化 · 执行运营
 
@@ -377,4 +378,4 @@ UI 自动化 · 执行运营
 - [16 失败自动诊断修复](./16-ui-failure-diagnoser.md)，ui-failure-diagnoser
 - [17 测试报告生成](./17-ui-report-generator.md)，ui-report-generator
 - [18 全链路流水线编排](./18-ui-pipeline-scheduler.md)，ui-pipeline-scheduler
-- [19 全流程串联实战](./19-ui-full-flow-integration.md)，4+1 Skill 架构收官
+- [20 执行到报告全流程串联](./20-ui-full-flow-integration.md)，4+1 Skill 架构收官（全系列完结）
