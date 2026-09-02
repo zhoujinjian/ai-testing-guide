@@ -125,7 +125,13 @@ If you're a test development practitioner, an AI explorer, and willing to share 
 
 If this roadmap helps you, please give it a **Star** ⭐️ — your recognition keeps it updated!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=zhoujinjian/ai-testing-guide&type=Date)](https://star-history.com/#zhoujinjian/ai-testing-guide&Date)
+<a href="https://www.star-history.com/?repos=zhoujinjian%2Fai-testing-guide&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zhoujinjian/ai-testing-guide&type=date&theme=dark&legend=top-left&sealed_token=VQIV7YFzTs3ohT_vi9tJqJs5Mhjs_0sdRsX86ekXWxg1M49yuM9XOv-F13yZHrgOP-DxyElx8fMez9pVPhc111JaL8JI4J3UwRuDEDu5-WuCZTx4MVekxA" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=zhoujinjian/ai-testing-guide&type=date&legend=top-left&sealed_token=VQIV7YFzTs3ohT_vi9tJqJs5Mhjs_0sdRsX86ekXWxg1M49yuM9XOv-F13yZHrgOP-DxyElx8fMez9pVPhc111JaL8JI4J3UwRuDEDu5-WuCZTx4MVekxA" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=zhoujinjian/ai-testing-guide&type=date&legend=top-left&sealed_token=VQIV7YFzTs3ohT_vi9tJqJs5Mhjs_0sdRsX86ekXWxg1M49yuM9XOv-F13yZHrgOP-DxyElx8fMez9pVPhc111JaL8JI4J3UwRuDEDu5-WuCZTx4MVekxA" />
+ </picture>
+</a>
 
 ## 📌 Copyright & Reprint Notice
 

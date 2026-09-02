@@ -32,26 +32,26 @@
 
 ## 学习路线全景图
 
-| 阶段                                          | 章节                                                           | 修炼境界        | 核心能力                                                                           |
-| --------------------------------------------- | -------------------------------------------------------------- | --------------- | ---------------------------------------------------------------------------------- |
-| **🧭 认知 · 建立岗位判断力**           |                                                                |                 |                                                                                    |
-| 起点                                          | [01 认识测试开发](./docs/roadmap/01-what-is-sdet.md)            | 💨 练气期       | 岗位全景 · 测开到底在做什么 · AI 时代多学了什么                                  |
-| **🧱 筑基 · 编程与工程功底**           |                                                                |                 |                                                                                    |
-| 阶段一                                        | [02 计算机基础](./docs/roadmap/02-cs-fundamentals.md)           | 🧱 筑基初期     | 网络 · 操作系统 · 数据结构与算法                                                 |
-| 阶段二                                        | [03 编程语言](./docs/roadmap/03-programming.md)                 | 🏗️ 筑基中期   | Python / Java 主语言 + 单测框架                                                    |
-| 阶段三                                        | [04 工程基础](./docs/roadmap/04-engineering-basics.md)          | 🏯 筑基圆满     | MySQL · Redis 缓存 · 消息队列与 Nginx 中间件 · Linux · Git · Docker · K8s · CI/CD |
-| **🧪 测试核心 · 从用例设计到质量工程** |                                                                |                 |                                                                                    |
-| 阶段四                                        | [05 测试理论与用例设计](./docs/roadmap/05-testing-theory.md)    | ⚗️ 结丹期     | 六维用例框架 · 边界与异常思维                                                     |
-| 阶段五                                        | [06 接口测试与接口自动化](./docs/roadmap/06-api-automation.md)  | 👶 元婴初期     | 框架分层 · 断言体系 · Mock 与数据构造                                            |
-| 阶段六                                        | [07 UI 与 App 自动化](./docs/roadmap/07-ui-app-automation.md)   | 🧒 元婴中期     | Playwright · Selenium / Appium · POM                                             |
-| 阶段七                                        | [08 性能与稳定性测试](./docs/roadmap/08-performance-testing.md) | 🧑 元婴后期     | 压测方法论 · 监控链路 · 瓶颈定位                                                 |
-| 阶段八 | [09 CI/CD、质量平台与精准测试](./docs/roadmap/09-quality-engineering.md) | 👁️ 化神期 | CI/CD 流水线集成 · 测试平台 · 精准测试 |
-| **🤖 AI 时代 · 提效与新赛道**          |                                                                |                 |                                                                                    |
-| 阶段九 | [10 AI 辅助测试](./docs/roadmap/10-ai-assisted-testing.md) | 🦋 婴变初期 | AI 编程提效 · 提示词工程 · AI 生成用例与脚本 · AI 代码审查与失败归因 · MCP / Skill |
-| 阶段十 | [11 AI 应用测试与大模型评测](./docs/roadmap/11-llm-evaluation.md) | ✨ 婴变圆满 | Dify 知识库 / Workflow 搭建 · 评测集建设 · RAG / Agent / 安全评测 · LLM-as-a-Judge · 上线门禁与 bad case 回流 |
-| **🚀 实战与求职 · 把能力兑现成 offer** |                                                                |                 |                                                                                    |
-| 实战                                          | [12 项目实战指南](./docs/roadmap/12-project-practice.md)        | ⚔️ 问鼎初期   | 4 个递进项目：接口框架 → UI/App → 性能定位 → AI 评测平台                        |
-| 面试                                          | [13 面试准备](./docs/roadmap/13-interview-guide.md)             | 🏆 问鼎 · 飞升 | 分类题库 · 项目叙事与表达框架                                                     |
+| 阶段                                          | 章节                                                                    | 修炼境界        | 核心能力                                                                                                          |
+| --------------------------------------------- | ----------------------------------------------------------------------- | --------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **🧭 认知 · 建立岗位判断力**           |                                                                         |                 |                                                                                                                   |
+| 起点                                          | [01 认识测试开发](./docs/roadmap/01-what-is-sdet.md)                     | 💨 练气期       | 岗位全景 · 测开到底在做什么 · AI 时代多学了什么                                                                 |
+| **🧱 筑基 · 编程与工程功底**           |                                                                         |                 |                                                                                                                   |
+| 阶段一                                        | [02 计算机基础](./docs/roadmap/02-cs-fundamentals.md)                    | 🧱 筑基初期     | 网络 · 操作系统 · 数据结构与算法                                                                                |
+| 阶段二                                        | [03 编程语言](./docs/roadmap/03-programming.md)                          | 🏗️ 筑基中期   | Python / Java 主语言 + 单测框架                                                                                   |
+| 阶段三                                        | [04 工程基础](./docs/roadmap/04-engineering-basics.md)                   | 🏯 筑基圆满     | MySQL · Redis 缓存 · 消息队列与 Nginx 中间件 · Linux · Git · Docker · K8s · CI/CD                          |
+| **🧪 测试核心 · 从用例设计到质量工程** |                                                                         |                 |                                                                                                                   |
+| 阶段四                                        | [05 测试理论与用例设计](./docs/roadmap/05-testing-theory.md)             | ⚗️ 结丹期     | 六维用例框架 · 边界与异常思维                                                                                    |
+| 阶段五                                        | [06 接口测试与接口自动化](./docs/roadmap/06-api-automation.md)           | 👶 元婴初期     | 框架分层 · 断言体系 · Mock 与数据构造                                                                           |
+| 阶段六                                        | [07 UI 与 App 自动化](./docs/roadmap/07-ui-app-automation.md)            | 🧒 元婴中期     | Playwright · Selenium / Appium · POM                                                                            |
+| 阶段七                                        | [08 性能与稳定性测试](./docs/roadmap/08-performance-testing.md)          | 🧑 元婴后期     | 压测方法论 · 监控链路 · 瓶颈定位                                                                                |
+| 阶段八                                        | [09 CI/CD、质量平台与精准测试](./docs/roadmap/09-quality-engineering.md) | 👁️ 化神期     | CI/CD 流水线集成 · 测试平台 · 精准测试                                                                          |
+| **🤖 AI 时代 · 提效与新赛道**          |                                                                         |                 |                                                                                                                   |
+| 阶段九                                        | [10 AI 辅助测试](./docs/roadmap/10-ai-assisted-testing.md)               | 🦋 婴变初期     | AI 编程提效 · 提示词工程 · AI 生成用例与脚本 · AI 代码审查与失败归因 · MCP / Skill                            |
+| 阶段十                                        | [11 AI 应用测试与大模型评测](./docs/roadmap/11-llm-evaluation.md)        | ✨ 婴变圆满     | Dify 知识库 / Workflow 搭建 · 评测集建设 · RAG / Agent / 安全评测 · LLM-as-a-Judge · 上线门禁与 bad case 回流 |
+| **🚀 实战与求职 · 把能力兑现成 offer** |                                                                         |                 |                                                                                                                   |
+| 实战                                          | [12 项目实战指南](./docs/roadmap/12-project-practice.md)                 | ⚔️ 问鼎初期   | 4 个递进项目：接口框架 → UI/App → 性能定位 → AI 评测平台                                                       |
+| 面试                                          | [13 面试准备](./docs/roadmap/13-interview-guide.md)                      | 🏆 问鼎 · 飞升 | 分类题库 · 项目叙事与表达框架                                                                                    |
 
 > 阶段六、七可以并行学习；从阶段五（接口自动化）开始就可以用 AI 提效，不必等传统技能全部学完。
 >
@@ -61,12 +61,12 @@
 
 ## 内容规划
 
-| 目录                                        | 状态     | 说明                                               |
-| ------------------------------------------- | -------- | -------------------------------------------------- |
-| [docs/roadmap](./docs/roadmap/README.md)     | 持续更新 | 学习路线主线，按阶段成章                           |
+| 目录                                        | 状态     | 说明                                                               |
+| ------------------------------------------- | -------- | ------------------------------------------------------------------ |
+| [docs/roadmap](./docs/roadmap/README.md)     | 持续更新 | 学习路线主线，按阶段成章                                           |
 | [docs/knowledge](./docs/knowledge/README.md) | 持续更新 | 实战教程：AI 测试实战系列 20 篇（用例设计/接口自动化/UI 自动化）等 |
-| [docs/interview](./docs/interview/README.md) | 持续更新 | 分类面试题库：大模型测试 20 题已收录，更多分类持续规划中 |
-| [docs/resources](./docs/resources/README.md) | 规划中   | 工具清单、书籍与课程汇总                           |
+| [docs/interview](./docs/interview/README.md) | 持续更新 | 分类面试题库：大模型测试 20 题已收录，更多分类持续规划中           |
+| [docs/resources](./docs/resources/README.md) | 规划中   | 工具清单、书籍与课程汇总                                           |
 
 ## 如何使用这份路线
 
@@ -95,7 +95,7 @@
 
 | 作者微信（备注「测开学习」） | 官方公众号「测试开发技术」 | 知识星球（微信扫码加入星球） |
 | ---------------------------- | -------------------------- | ---------------------------- |
-| <img src="./assets/images/wechat-author.png" width="258" alt="作者微信"/> | <img src="./assets/images/wechat-mp-qrcode.png" width="258" alt="公众号"/> | <img src="./assets/images/zsxq.png" width="258" alt="知识星球"/> |
+|                              |                            |                              |
 
 - **作者微信**：加好友备注「测开学习」，拉你进测试开发交流群，和一群同行者互相督促
 - **官方公众号「测试开发技术」**：AI 提效技巧、测开技术干货、行业动态，内容更新第一时间推送
@@ -123,7 +123,13 @@
 
 如果这份路线对你有帮助，请给一个 **Star** ⭐️ 支持一下，你的认可是持续更新的动力！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=zhoujinjian/ai-testing-guide&type=Date)](https://star-history.com/#zhoujinjian/ai-testing-guide&Date)
+<a href="https://www.star-history.com/?repos=zhoujinjian%2Fai-testing-guide&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zhoujinjian/ai-testing-guide&type=date&theme=dark&legend=top-left&sealed_token=VQIV7YFzTs3ohT_vi9tJqJs5Mhjs_0sdRsX86ekXWxg1M49yuM9XOv-F13yZHrgOP-DxyElx8fMez9pVPhc111JaL8JI4J3UwRuDEDu5-WuCZTx4MVekxA" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=zhoujinjian/ai-testing-guide&type=date&legend=top-left&sealed_token=VQIV7YFzTs3ohT_vi9tJqJs5Mhjs_0sdRsX86ekXWxg1M49yuM9XOv-F13yZHrgOP-DxyElx8fMez9pVPhc111JaL8JI4J3UwRuDEDu5-WuCZTx4MVekxA" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=zhoujinjian/ai-testing-guide&type=date&legend=top-left&sealed_token=VQIV7YFzTs3ohT_vi9tJqJs5Mhjs_0sdRsX86ekXWxg1M49yuM9XOv-F13yZHrgOP-DxyElx8fMez9pVPhc111JaL8JI4J3UwRuDEDu5-WuCZTx4MVekxA" />
+ </picture>
+</a>
 
 ## 📌 版权与转载声明
 
