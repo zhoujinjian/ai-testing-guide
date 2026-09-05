@@ -9,6 +9,7 @@ description: AI 测试开发学习路线的内容与站点更新记录。
 
 - 内容：实战教程收录「AI 测试实战系列」全部 20 篇（[docs/knowledge](../knowledge/README.md)）——用例设计 01、接口自动化 02-10、UI 自动化 11-20。原第 19 篇收官拆分为「19 脚本生成流水线串联」与「20 执行到报告全流程串联」两篇，系列扩至 20 篇完结。
 - 内容：面试题库收录《大模型测试 20 题》全部 20 题（[docs/interview/llm-testing](../interview/llm-testing/README.md)），覆盖认知体系、评测集建设、指标与评估方法、幻觉与安全、性能与稳定性、工程化落地六组。
+- 内容：面试题库收录《软件测试必备 20 题》全部 20 题（[docs/interview/testing-essentials](../interview/testing-essentials/README.md)），覆盖流程用例、缺陷管理、技术基本功、自动化测试、质量判断力五组。
 
 ## 2026-08
 

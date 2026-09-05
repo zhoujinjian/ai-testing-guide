@@ -51,7 +51,7 @@ export const sidebar: SidebarOptions = {
     { text: "实战教程", link: "/knowledge/" },
     {
       text: "AI 测试实战系列",
-      collapsible: false,
+      collapsible: true,
       children: [
         { text: "01 用例设计四件套", link: "/knowledge/01-testcase-design-toolkit.html" },
         { text: "02 接口文档智能解析", link: "/knowledge/02-api-schema-parser.html" },
@@ -80,7 +80,7 @@ export const sidebar: SidebarOptions = {
     { text: "题库首页", link: "/interview/" },
     {
       text: "🤖 大模型测试",
-      collapsible: false,
+      collapsible: true,
       children: [
         { text: "01 大模型测试与传统测试的本质区别", link: "/interview/llm-testing/01-llm-vs-traditional-testing.html" },
         { text: "02 LLM 知识库问答测试方案设计", link: "/interview/llm-testing/02-llm-kb-qa-test-plan.html" },
@@ -106,7 +106,7 @@ export const sidebar: SidebarOptions = {
     },
     {
       text: "🧪 软件测试必备",
-      collapsible: false,
+      collapsible: true,
       children: [
         { text: "01 新项目怎么开展测试", link: "/interview/testing-essentials/01-new-project-test-process.html" },
         { text: "02 版本迭代日常流程", link: "/interview/testing-essentials/02-daily-iteration-workflow.html" },
