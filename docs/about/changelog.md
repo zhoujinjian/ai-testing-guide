@@ -11,6 +11,7 @@ description: AI 测试开发学习路线的内容与站点更新记录。
 - 内容：面试题库收录《大模型测试 20 题》全部 20 题（[docs/interview/llm-testing](../interview/llm-testing/README.md)），覆盖认知体系、评测集建设、指标与评估方法、幻觉与安全、性能与稳定性、工程化落地六组。
 - 内容：面试题库收录《软件测试必备 20 题》全部 20 题（[docs/interview/testing-essentials](../interview/testing-essentials/README.md)），覆盖流程用例、缺陷管理、技术基本功、自动化测试、质量判断力五组。
 - 内容：面试题库收录《自动化测试 20 题》全部 20 题（[docs/interview/automation-testing](../interview/automation-testing/README.md)），覆盖认知策略、Web 自动化技术、框架工程化、接口与移动端四组。
+- 内容：面试题库收录《性能测试 20 题》全部 20 题（[docs/interview/performance-testing](../interview/performance-testing/README.md)），覆盖指标认知、方案执行、监控定位、专项报告四组。
 
 ## 2026-08
 
