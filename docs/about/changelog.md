@@ -14,6 +14,7 @@ description: AI 测试开发学习路线的内容与站点更新记录。
 - 内容：面试题库收录《性能测试 20 题》全部 20 题（[docs/interview/performance-testing](../interview/performance-testing/README.md)），覆盖指标认知、方案执行、监控定位、专项报告四组。
 - 内容：面试题库收录《安全测试 20 题》全部 20 题（[docs/interview/security-testing](../interview/security-testing/README.md)），覆盖认知体系、漏洞攻防、工具进阶、综合方案四组，按「测试工程师的安全视角」组织。
 - 内容：面试题库收录《AI 测试提效 20 题》全部 20 题（[docs/interview/ai-efficiency](../interview/ai-efficiency/README.md)），覆盖认知选型、落地实践、风险工程化、前沿探索四组——与大模型测试篇互为姊妹篇（怎么测 AI / 怎么用 AI）。
+- 内容：面试题库收录《研发效能度量与提升 20 题》全部 20 题（[docs/interview/dev-efficiency](../interview/dev-efficiency/README.md)），覆盖认知体系、测试效能指标、度量实践、改进组织四组。
 
 ## 2026-08
 
