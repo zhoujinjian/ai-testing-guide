@@ -111,6 +111,7 @@ Token 成本（每次调用的输入 / 输出 token 数）、响应时长 P95、
 - [DeepEval 文档](https://deepeval.com/)：pytest 风格 LLM 评测框架，测开最平滑的入门。
 - [RAGAS 文档](https://docs.ragas.io/)：RAG 评测专项指标。
 - [promptfoo 文档](https://www.promptfoo.dev/)：Prompt 与模型对比的 CI 化工具。
+- [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark)：面向 Agent 运行的纵向评测与不可变证据工具（npm 包 @yylo/benchmark）：任务在私有全新仓库工作区中执行，评测配置支持确定性命令与可配置 LLM 评委，工作区回执与执行后仓库清单哈希经终端、证据与状态链接为可复核证据链，可用于了解 Agent 应用回归评测与证据留痕的工程做法。
 - [LlamaIndex 文档](https://docs.llamaindex.ai/)：搭练手 RAG 的最快路径。
 - [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)：AI 应用安全风险清单，安全用例设计对照表。
 - 论文选读：RAGAS、LLM-as-a-Judge（搜标题即得），了解指标设计思想即可，不必抠数学。
