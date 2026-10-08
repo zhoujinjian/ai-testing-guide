@@ -1,19 +1,20 @@
 ---
 title: 社区与信息源
-description: 测试开发社区与信息源（规划中）：技术社区、博客、公众号、开源项目聚合。
+description: 测试开发社区与信息源导航：技术社区、开源聚合、公众号与星球三大类，每个社区独立一页（简介 / 官网 / 测试人怎么用）。
 ---
 
-# 社区与信息源（规划中）
+# 社区与信息源
 
-测试开发方向的社区与信息源，保持信息敏感度的日常输入。
+测试开发方向的社区与信息源，保持技术敏感度的日常输入。按信息渠道分三类：
 
-## 计划收录方向
+| 分类 | 状态 | 说明 |
+| --- | --- | --- |
+| [💬 技术社区](./tech-communities/) | **已收录 12 个** | 国内综合（掘金/知乎/CSDN…）+ 测试垂直（TesterHome/AI 测开导航）+ 厂商社区 + 国际社区 |
+| [📦 开源聚合](./open-source/) | **已收录 1 个** | Awesome Testing 大清单，主题清单持续扩充 |
+| [📲 公众号与星球](./wechat-planet/) | **已收录 2 个** | 「测试开发技术」公众号、「AI 测开进化圈」星球（狂师主理） |
 
-| 方向 | 候选 |
-| --- | --- |
-| 技术社区 | 测试之家（TestHome）、TesterHome、51Testing、Stack Overflow |
-| 国际信息源 | Ministry of Testing、Google Testing Blog、Netflix Tech Blog |
-| 开源聚合 | Awesome Testing、Awesome Test Automation 系列 |
-| 公众号与星球 | AI 测开导航、狂师公众号、AI 进化社知识星球 |
+## 收录标准
 
-> 本分类整理中，欢迎通过 Issue 或 PR 推荐，参见[贡献指南](/about/contributing.html)。
+- 社区独立成页：简介、官网、测试相关内容版块、适合谁
+- 活跃优先：长期有测试方向产出的社区才收录
+- 欢迎推荐，参见[贡献指南](/about/contributing.html)

@@ -145,6 +145,6 @@ If this roadmap helps you, please give it a **Star** ⭐️ — your recognition
 
 ## Changelog
 
+- 2026-10: Interview bank completed at 200 questions (10 categories); tool directory launched with 140 curated tools across 5 categories (AI coding, API, UI automation, performance, security), one page per tool with verified repo links and screenshots; book list added with 66 must-read titles (permanent cloud links); communities section launched with 12 tech communities, an awesome-testing roundup, and the author's WeChat account & knowledge planet.
 - 2026-09: Knowledge section added — 20-article "AI Testing in Action" series; interview question bank grew to 180 questions across 9 categories.
-- 2026-10: Interview bank completed at 200 questions (10 categories); tool directory launched with 140 curated tools across 5 categories (AI coding, API, UI automation, performance, security), one page per tool with verified repo links and screenshots.
 - 2026-08: v1 initial release — complete 10-stage learning roadmap + 4 hands-on projects + interview guide.

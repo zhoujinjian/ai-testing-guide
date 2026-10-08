@@ -7,6 +7,7 @@ description: AI 测试开发学习路线的内容与站点更新记录。
 
 ## 2026-10
 
+- 内容：社区与信息源三个子分类上线（[docs/resources/communities](../resources/communities/README.md)）——技术社区 12 个（国内综合掘金/知乎/博客园/CSDN/开源中国 + 测试垂直 TesterHome/AI 测开导航 + 厂商腾讯云/阿里云 + 国际 InfoQ/Stack Overflow/Twitter X 附大牛清单）、开源聚合收录 Awesome Testing 大清单（2.4k★，CC0）、公众号与星球收录「测试开发技术」公众号与「AI 测开进化圈」星球（狂师主理，附二维码）。
 - 内容：推荐书单上线（[docs/resources/books](../resources/books/README.md)），整理自百度网盘《软件测试开发资料包（2026）· 推荐学员必读的 66 本书籍》——66 份资料按九大分类组织（测试经典 / 自动化 / 性能安全 / Python / Web / 算法 / 计算机基础 / 管理 / 面试题集），每份附永久有效的百度网盘分享链接（提取码内嵌）。
 - 内容：测试工具清单新增性能测试工具 18 个（[docs/resources/test-tools/performance-testing-tools](../resources/test-tools/performance-testing-tools/README.md)，老牌双雄 / 开发者新势力 / 轻量命令行 / 平台与云四组）与安全测试工具 27 个（[docs/resources/test-tools/security-testing-tools](../resources/test-tools/security-testing-tools/README.md)，渗透五件套 / Web 漏洞 / 目录 Fuzz / 主机代码 / 移动专项五组）。整理自「测试开发技术」公众号《2026 性能测试工具大盘点》《2026 年安全测试工具大全》两篇 + 检索补充 17 款（autocannon、oha、ab、Siege、Tsung、gobuster、OpenVAS、Trivy、Hydra、MobSF、Frida、SonarQube、CodeQL、Dependency-Check、Amass、hashcat、Ghidra）。至此测试工具清单五大子类 140 个工具全部收录完成。
 - 内容：测试工具清单新增 UI 自动化工具 39 个（[docs/resources/test-tools/ui-automation-tools](../resources/test-tools/ui-automation-tools/README.md)），整理自「测试开发技术」公众号《2026 年 UI 自动化工具大全，20 款主流工具一次看懂》与《Web 自动化测试全景图：20 个主流 AI 自动化工具如何选？》（两篇交集 11 款、合并去重 29 款）+ 检索补充 APP 端 6 款与桌面端 4 款。**按适用端分四组：Web UI（23）→ APP UI（6）→ 桌面 UI（4）→ 跨端多端（6）**，每个工具页新增「适用端」字段。GitHub 仓库经 API / gh CLI 核验，配图 36 张。

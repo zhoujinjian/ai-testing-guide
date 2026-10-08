@@ -540,7 +540,49 @@ export const sidebar: SidebarOptions = {
       ],
     },
     { text: "🎓 课程与教程（规划中）", link: "/resources/courses/" },
-    { text: "💬 社区与信息源（规划中）", link: "/resources/communities/" },
+    {
+      text: "💬 社区与信息源",
+      collapsible: true,
+      children: [
+        { text: "分类总览", link: "/resources/communities/" },
+        {
+          text: "技术社区",
+          collapsible: true,
+          children: [
+            { text: "清单总览", link: "/resources/communities/tech-communities/" },
+            { text: "01 掘金", link: "/resources/communities/tech-communities/01-juejin.html" },
+            { text: "02 知乎", link: "/resources/communities/tech-communities/02-zhihu.html" },
+            { text: "03 博客园", link: "/resources/communities/tech-communities/03-cnblogs.html" },
+            { text: "04 CSDN", link: "/resources/communities/tech-communities/04-csdn.html" },
+            { text: "05 开源中国 OSC", link: "/resources/communities/tech-communities/05-oschina.html" },
+            { text: "06 TesterHome", link: "/resources/communities/tech-communities/06-testerhome.html" },
+            { text: "07 腾讯云开发者社区", link: "/resources/communities/tech-communities/07-tencent-cloud.html" },
+            { text: "08 阿里云开发者社区", link: "/resources/communities/tech-communities/08-aliyun.html" },
+            { text: "09 InfoQ 中文站", link: "/resources/communities/tech-communities/09-infoq.html" },
+            { text: "10 Stack Overflow", link: "/resources/communities/tech-communities/10-stack-overflow.html" },
+            { text: "11 Twitter / X", link: "/resources/communities/tech-communities/11-x.html" },
+            { text: "12 AI 测开导航", link: "/resources/communities/tech-communities/12-testfather.html" },
+          ],
+        },
+        {
+          text: "开源聚合",
+          collapsible: true,
+          children: [
+            { text: "清单总览", link: "/resources/communities/open-source/" },
+            { text: "01 Awesome Testing", link: "/resources/communities/open-source/awesome-testing.html" },
+          ],
+        },
+        {
+          text: "公众号与星球",
+          collapsible: true,
+          children: [
+            { text: "总览（含二维码）", link: "/resources/communities/wechat-planet/" },
+            { text: "「测试开发技术」公众号", link: "/resources/communities/wechat-planet/wechat-mp.html" },
+            { text: "「AI 测开进化圈」星球", link: "/resources/communities/wechat-planet/planet.html" },
+          ],
+        },
+      ],
+    },
     { text: "🎯 练手平台与靶场（规划中）", link: "/resources/practice-platforms/" },
   ],
   "/about/": [
