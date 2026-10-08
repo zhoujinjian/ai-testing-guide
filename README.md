@@ -66,7 +66,7 @@
 | [docs/roadmap](./docs/roadmap/README.md)     | 持续更新 | 学习路线主线，按阶段成章                                           |
 | [docs/knowledge](./docs/knowledge/README.md) | 持续更新 | 实战教程：AI 测试实战系列 20 篇（用例设计/接口自动化/UI 自动化）等 |
 | [docs/interview](./docs/interview/README.md) | 持续更新 | 分类面试题库：大模型测试 + 软件测试必备 + 自动化测试 + 性能测试 + 安全测试 + AI 测试提效 + 研发效能度量 + 测试平台开发 + 测试管理 + 测试流程与团队协作共 200 题已收录，更多分类持续规划中           |
-| [docs/resources](./docs/resources/README.md) | 规划中   | 工具清单、书籍与课程汇总                                           |
+| [docs/resources](./docs/resources/README.md) | 持续更新 | 资源导航：测试工具清单（AI 编程工具 33 个已收录，接口/UI/性能/安全规划中）+ 书单 + 课程 + 社区 + 练手靶场 |
 
 ## 如何使用这份路线
 
