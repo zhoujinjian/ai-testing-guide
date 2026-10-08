@@ -10,8 +10,8 @@ description: 测试开发工具清单：AI 编程、接口测试、UI 自动化�
 | 分类 | 状态 | 说明 |
 | --- | --- | --- |
 | [🤖 AI 编程工具](./ai-coding-tools/) | **已收录 33 个** | 海外大厂 → 创业公司 → 国产军团 → 开源新势力，测开提效的第一梯队工具 |
-| [🔌 接口测试工具](./api-testing-tools/) | 规划中 | 接口调试、自动化、抓包、Mock |
-| [🖥️ UI 自动化工具](./ui-automation-tools/) | 规划中 | Web、App、桌面端自动化框架 |
+| [🔌 接口测试工具](./api-testing-tools/) | **已收录 23 个** | 协作平台 → 开源自部署 → 命令行 → 框架代码 → 生态补充，含 Postman 替代方案全景 |
+| [🖥️ UI 自动化工具](./ui-automation-tools/) | **已收录 39 个** | 按适用端分组：Web UI → APP UI → 桌面 UI → 跨端，传统框架 + AI 引擎 + 云浏览器 |
 | [⚡ 性能测试工具](./performance-testing-tools/) | 规划中 | 压测、监控、瓶颈定位 |
 | [🔐 安全测试工具](./security-testing-tools/) | 规划中 | 漏洞扫描、渗透测试、抓包审计 |
 

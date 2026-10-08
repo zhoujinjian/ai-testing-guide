@@ -7,6 +7,8 @@ description: AI 测试开发学习路线的内容与站点更新记录。
 
 ## 2026-10
 
+- 内容：测试工具清单新增 UI 自动化工具 39 个（[docs/resources/test-tools/ui-automation-tools](../resources/test-tools/ui-automation-tools/README.md)），整理自「测试开发技术」公众号《2026 年 UI 自动化工具大全，20 款主流工具一次看懂》与《Web 自动化测试全景图：20 个主流 AI 自动化工具如何选？》（两篇交集 11 款、合并去重 29 款）+ 检索补充 APP 端 6 款与桌面端 4 款。**按适用端分四组：Web UI（23）→ APP UI（6）→ 桌面 UI（4）→ 跨端多端（6）**，每个工具页新增「适用端」字段。GitHub 仓库经 API / gh CLI 核验，配图 36 张。
+- 内容：测试工具清单新增接口测试工具 23 个（[docs/resources/test-tools/api-testing-tools](../resources/test-tools/api-testing-tools/README.md)），整理自「测试开发技术」公众号《别只会用 Postman 了，这 15 款接口测试工具你可能还不知道》（协作平台 / 开源自部署 / 命令行 / 框架代码四派 15 个）+ 检索补充生态常用 8 个（Newman、MeterSphere、Tavern、soapUI、Yaak、Robot Framework + RequestsLibrary、Reqable、Swagger Inspector）。GitHub 仓库 API 核验，配图 21 张。
 - 内容：资源导航上线测试工具清单（[docs/resources](../resources/README.md)），五大二级分类（测试工具清单 / 推荐书单 / 课程与教程 / 社区与信息源 / 练手平台与靶场）+ 工具五大子类（AI 编程 / 接口 / UI 自动化 / 性能 / 安全）。首批收录 AI 编程工具 33 个（整理自「测试开发技术」公众号《2026 年 AI 编程工具大全》，33 个主流工具一次看懂），每个工具独立一页：工具介绍、官网、GitHub 开源地址（API 实时核验，含 star 数与协议）、配图 29 张（官网图 / 仓库社交卡片）。
 - 内容：面试题库收录《测试流程与团队协作 20 题》全部 20 题（[docs/interview/test-process-collaboration](../interview/test-process-collaboration/README.md)），覆盖流程环节深挖、跨角色协作、流程改进与情境三组——《软件测试必备》讲流程的个人基础版，《测试管理》讲管理者的团队版，这一篇是中间那层，对应 3 到 5 年经验的中级测试和测开面试。至此题库十大分类 200 题收录完成。
 
