@@ -11,7 +11,7 @@ description: 学习路线配套的单篇深入教程：Playwright 实战、pytes
 
 ## 已收录：AI 测试实战系列
 
-围绕「AI + Agent Skill 赋能测试全流程」的实战系列（共 20 篇），基于实战项目 shop-lab 拆解，覆盖用例设计、接口自动化、UI 自动化全链路。**20 篇已全部收录。**
+围绕「AI + Agent Skill 赋能测试全流程」的实战系列（共 22 篇），基于实战项目 shop-lab 拆解，覆盖用例设计、接口自动化、UI 自动化、业务场景接口串联全链路。**22 篇已全部收录。**
 
 | 篇目 | 主题 | 核心 Skill |
 | --- | --- | --- |
@@ -35,6 +35,8 @@ description: 学习路线配套的单篇深入教程：Playwright 实战、pytes
 | [18 UI 全链路流水线编排](./18-ui-pipeline-scheduler.md) | 执行→修复→重试→报告闭环编排 | ui-pipeline-scheduler |
 | [19 脚本生成流水线串联](./19-ui-script-pipeline.md) | 解析→生成→增强→适配→维护闭环 | ui-page-parser 等 4+1 |
 | [20 执行到报告全流程串联](./20-ui-full-flow-integration.md) | 标签→执行→诊断→报告编排收官 | ui-test-executor 等 4+1 |
+| [21 业务场景建模](./21-api-scenario-modeler.md) | 自然语言场景 → scenario yaml 编排文件 | api-scenario-modeler |
+| [22 业务场景链路执行](./22-api-scenario-runner.md) | run 直跑 + compile 编译 pytest，DB 终态校验 | api-scenario-runner |
 
 ## 规划主题
 

@@ -1,11 +1,11 @@
 ---
 title: 20 UI 自动化·执行到报告全流程串联：4+1 Skill 架构收官
-description: AI 测试实战系列第 20 篇（全系列收官）。执行侧 4+1 架构：ui-test-tagger 打标 → ui-test-executor 执行 → ui-failure-diagnoser 诊断修复 → ui-report-generator 出报告，ui-pipeline-scheduler 统一编排，一条指令跑通「标签怎么打、脚本怎么跑、挂了怎么修、结果怎么报」。
+description: AI 测试实战系列第 20 篇（UI 自动化收官）。执行侧 4+1 架构：ui-test-tagger 打标 → ui-test-executor 执行 → ui-failure-diagnoser 诊断修复 → ui-report-generator 出报告，ui-pipeline-scheduler 统一编排，一条指令跑通「标签怎么打、脚本怎么跑、挂了怎么修、结果怎么报」。
 ---
 
 # AI 测试实战系列 20｜UI 自动化·执行到报告全流程串联：4+1 Skill 架构收官
 
-> AI 测试实战系列（共 20 篇）｜ 01 用例设计（接口/UI 通用） · 接口自动化 02-10 · UI 自动化 11-20 ｜ 本文第 20 篇 · 全系列收官
+> AI 测试实战系列（共 22 篇）｜ 01 用例设计（接口/UI 通用） · 接口自动化 02-10 · UI 自动化 11-20 · 业务场景 21-22 ｜ 本文第 20 篇 · UI 自动化收官
 
 ---
 
@@ -21,7 +21,7 @@ description: AI 测试实战系列第 20 篇（全系列收官）。执行侧 4+
 
 自动化测试执行阶段，是整个测试体系里，翻车率最高、最消耗人、也最值得 AI 赋能的一段。
 
-本篇给大家分享 5 个 Agent Skill，串起「标签怎么打、脚本怎么跑、挂了怎么修、结果怎么报」完整链路的。这也是整个系列的收官篇。
+本篇给大家分享 5 个 Agent Skill，串起「标签怎么打、脚本怎么跑、挂了怎么修、结果怎么报」完整链路的。这也是 UI 自动化的收官篇。
 
 ![](https://image.kjdaohang.com/img/20260825203518042.png)
 
@@ -485,7 +485,7 @@ flowchart LR
 
 ---
 
-**系列完结。** 到这里，AI 测试实战系列 20 篇全部更完。01 测前设计打底，02-10 接口自动化，11-20 UI 自动化，从用例设计、脚本生成到执行运营、报告决策，AI 赋能测试全流程的实战拼图，到这里凑齐了。
+**UI 自动化线完结。** 到这里，系列前 20 篇全部更完。01 测前设计打底，02-10 接口自动化，11-20 UI 自动化，从用例设计、脚本生成到执行运营、报告决策，UI 自动化的实战拼图到这里凑齐。单接口测得再好，拼到一起不一定通——业务场景接口串联（21-22 篇）接着补上这块。
 
 这 5 个 Skill，串起来是一条从执行到报告的完整流水线，拆开来是 5 件各自趁手的独立工具。UI 自动化最难啃的那段路，现在可以交给 AI 了。
 
@@ -496,7 +496,7 @@ flowchart LR
 - Skill 工具包下载，https://www.testfather.cn/skills（星球成员已含网站会员，登录直接领）
 - 完整开发设计教程与项目源码（含 30+ AI 测试全场景 Agent Skill），见「狂师 . AI 进化社」
 
-**系列导航**（AI 测试实战系列，共 20 篇）
+**系列导航**（AI 测试实战系列，共 22 篇）
 
 测前设计（接口 / UI 通用）
 
@@ -531,4 +531,9 @@ UI 自动化 · 执行运营
 - [16 失败自动诊断修复](./16-ui-failure-diagnoser.md)，ui-failure-diagnoser
 - [17 测试报告生成](./17-ui-report-generator.md)，ui-report-generator
 - [18 全链路流水线编排](./18-ui-pipeline-scheduler.md)，ui-pipeline-scheduler
-- [20 执行到报告全流程串联](./20-ui-full-flow-integration.md)，4+1 Skill 架构收官（全系列完结）
+- [20 执行到报告全流程串联](./20-ui-full-flow-integration.md)，4+1 Skill 架构收官
+
+业务场景 · 接口串联
+
+- [21 业务场景建模](./21-api-scenario-modeler.md)，api-scenario-modeler
+- [22 业务场景链路执行](./22-api-scenario-runner.md)，api-scenario-runner（业务场景线完结）

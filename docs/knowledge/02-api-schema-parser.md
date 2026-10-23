@@ -5,7 +5,7 @@ description: AI 测试实战系列第 02 篇。为什么接口自动化最适合
 
 # AI 测试实战系列 02｜接口自动化·文档智能解析：api-schema-parser
 
-> AI 测试实战系列（共 20 篇）｜ 01 用例设计（接口/UI 通用） · 接口自动化 02-10 · UI 自动化 11-20 ｜ 本文第 02 篇
+> AI 测试实战系列（共 22 篇）｜ 01 用例设计（接口/UI 通用） · 接口自动化 02-10 · UI 自动化 11-20 · 业务场景 21-22 ｜ 本文第 02 篇
 
 ---
 
@@ -207,7 +207,7 @@ AI 赋能接口自动化测试，从来不是 "一劳永逸的魔法"，而是�
 - Skill 工具包下载，https://www.testfather.cn/skills（星球成员已含网站会员，登录直接领）
 - 完整开发设计教程与项目源码（含 30+ AI 测试全场景 Agent Skill），见「狂师 . AI 进化社」
 
-**系列导航**（AI 测试实战系列，共 20 篇）
+**系列导航**（AI 测试实战系列，共 22 篇）
 
 测前设计（接口 / UI 通用）
 
@@ -242,4 +242,9 @@ UI 自动化 · 执行运营
 - [16 失败自动诊断修复](./16-ui-failure-diagnoser.md)，ui-failure-diagnoser
 - [17 测试报告生成](./17-ui-report-generator.md)，ui-report-generator
 - [18 全链路流水线编排](./18-ui-pipeline-scheduler.md)，ui-pipeline-scheduler
-- [20 执行到报告全流程串联](./20-ui-full-flow-integration.md)，4+1 Skill 架构收官（全系列完结）
+- [20 执行到报告全流程串联](./20-ui-full-flow-integration.md)，4+1 Skill 架构收官
+
+业务场景 · 接口串联
+
+- [21 业务场景建模](./21-api-scenario-modeler.md)，api-scenario-modeler
+- [22 业务场景链路执行](./22-api-scenario-runner.md)，api-scenario-runner（业务场景线完结）

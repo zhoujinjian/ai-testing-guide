@@ -66,7 +66,7 @@ Start with the [Roadmap Overview](./docs/roadmap/README.md): it has tailored pat
 | Directory | Status | Description |
 | --- | --- | --- |
 | [docs/roadmap](./docs/roadmap/README.md) | Actively updated | The main learning path, one chapter per stage |
-| [docs/knowledge](./docs/knowledge/README.md) | Actively updated | Hands-on tutorial series: 20 articles on AI testing in action (test design, API & UI automation) |
+| [docs/knowledge](./docs/knowledge/README.md) | Actively updated | Hands-on tutorial series: 22 articles on AI testing in action (test design, API & UI automation, business-scenario chains) |
 | [docs/interview](./docs/interview/README.md) | Actively updated | Categorized interview question bank: 200 questions across 10 categories (LLM testing, essentials, automation, performance, security, AI productivity, DevOps metrics, test platforms, test management, process & collaboration) |
 | [docs/resources](./docs/resources/README.md) | Actively updated | Tool directory: 140 testing tools across 5 categories (AI coding 33 / API 23 / UI automation 39 / performance 18 / security 27), one page per tool |
 
@@ -145,6 +145,6 @@ If this roadmap helps you, please give it a **Star** ⭐️ — your recognition
 
 ## Changelog
 
-- 2026-10: Interview bank completed at 200 questions (10 categories); tool directory launched with 140 curated tools across 5 categories (AI coding, API, UI automation, performance, security), one page per tool with verified repo links and screenshots; book list added with 66 must-read titles (permanent cloud links); communities section launched with 12 tech communities, an awesome-testing roundup, and the author's WeChat account & knowledge planet.
+- 2026-10: Knowledge series extended to 22 articles with two business-scenario API testing installments — #21 scenario modeling (api-scenario-modeler, natural language to scenario yaml) and #22 scenario runner (api-scenario-runner, run mode + compile to pytest with DB final-state asserts); interview bank completed at 200 questions (10 categories); tool directory launched with 140 curated tools across 5 categories (AI coding, API, UI automation, performance, security), one page per tool with verified repo links and screenshots; book list added with 66 must-read titles (permanent cloud links); communities section launched with 12 tech communities, an awesome-testing roundup, and the author's WeChat account & knowledge planet.
 - 2026-09: Knowledge section added — 20-article "AI Testing in Action" series; interview question bank grew to 180 questions across 9 categories.
 - 2026-08: v1 initial release — complete 10-stage learning roadmap + 4 hands-on projects + interview guide.

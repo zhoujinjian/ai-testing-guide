@@ -7,6 +7,7 @@ description: AI 测试开发学习路线的内容与站点更新记录。
 
 ## 2026-10
 
+- 内容：实战教程收录「AI 测试实战系列」业务场景接口串联两篇（[docs/knowledge](../knowledge/README.md)）——[21 业务场景建模](../knowledge/21-api-scenario-modeler.md) api-scenario-modeler（自然语言业务场景 → `scenario_<场景名>.yaml` 编排文件 + modeling_notes.md，8 步建模工作流、R1~R7 推导规则、变量闭环与接口真实性双重红线）、[22 业务场景链路执行](../knowledge/22-api-scenario-runner.md) api-scenario-runner（run 直接执行整条链路 / compile 编译成 pytest 脚本并入执行调度体系，三级断言 + DB 终态校验 + 幂等重复执行）。系列由 20 篇扩至 22 篇，原第 20 篇「全系列收官」调整为「UI 自动化收官」，单接口与业务场景两条线并入同一体系，全站系列导航同步更新。
 - 内容：社区与信息源三个子分类上线（[docs/resources/communities](../resources/communities/README.md)）——技术社区 12 个（国内综合掘金/知乎/博客园/CSDN/开源中国 + 测试垂直 TesterHome/AI 测开导航 + 厂商腾讯云/阿里云 + 国际 InfoQ/Stack Overflow/Twitter X 附大牛清单）、开源聚合收录 Awesome Testing 大清单（2.4k★，CC0）、公众号与星球收录「测试开发技术」公众号与「AI 测开进化圈」星球（狂师主理，附二维码）。
 - 内容：推荐书单上线（[docs/resources/books](../resources/books/README.md)），整理自百度网盘《软件测试开发资料包（2026）· 推荐学员必读的 66 本书籍》——66 份资料按九大分类组织（测试经典 / 自动化 / 性能安全 / Python / Web / 算法 / 计算机基础 / 管理 / 面试题集），每份附永久有效的百度网盘分享链接（提取码内嵌）。
 - 内容：测试工具清单新增性能测试工具 18 个（[docs/resources/test-tools/performance-testing-tools](../resources/test-tools/performance-testing-tools/README.md)，老牌双雄 / 开发者新势力 / 轻量命令行 / 平台与云四组）与安全测试工具 27 个（[docs/resources/test-tools/security-testing-tools](../resources/test-tools/security-testing-tools/README.md)，渗透五件套 / Web 漏洞 / 目录 Fuzz / 主机代码 / 移动专项五组）。整理自「测试开发技术」公众号《2026 性能测试工具大盘点》《2026 年安全测试工具大全》两篇 + 检索补充 17 款（autocannon、oha、ab、Siege、Tsung、gobuster、OpenVAS、Trivy、Hydra、MobSF、Frida、SonarQube、CodeQL、Dependency-Check、Amass、hashcat、Ghidra）。至此测试工具清单五大子类 140 个工具全部收录完成。
