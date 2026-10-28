@@ -53,3 +53,7 @@ description: 学习路线配套的单篇深入教程：Playwright 实战、pytes
 ## 贡献
 
 欢迎认领以上主题或提出新主题，参见[贡献指南](/about/contributing.html)。文件命名用英文 slug（如 `playwright-in-action.md`），标题用中文。
+
+## 配套资源
+
+本系列与 [AI 测试开发导航](https://www.testfather.cn/) 配套建设：[教程专栏](https://www.testfather.cn/tutorials)（更多分阶段实战教程，环境搭建到落地实操）、[精品课程](https://www.testfather.cn/courses)（体系化课程）。

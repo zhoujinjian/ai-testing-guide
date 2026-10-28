@@ -52,6 +52,76 @@ function initImmersive(): void {
   syncButtonState();
 }
 
+/* ---------------- 侧边栏二维码引流 ---------------- */
+
+const QR_ICON_MP =
+  '<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="9.4" cy="9.6" rx="6.6" ry="5.9" fill="#07C160"/><path d="M7.6 14.6 5.9 18.3a.45.45 0 0 0 .6.57l3.66-1.77z" fill="#07C160"/><circle cx="7" cy="9.1" r="1.15" fill="#fff"/><circle cx="11.8" cy="9.1" r="1.15" fill="#fff"/><ellipse cx="16.2" cy="16" rx="5.4" ry="4.8" fill="#07C160"/><path d="m17.6 20.3 1.5 2.4a.4.4 0 0 1-.5.58l-2.7-1.6z" fill="#07C160"/><circle cx="14.4" cy="15.6" r="1" fill="#fff"/><circle cx="18" cy="15.6" r="1" fill="#fff"/></svg>';
+const QR_ICON_WECHAT =
+  '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6"/><path d="M22 11h-6"/></svg>';
+const QR_ICON_ZSXQ =
+  '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>';
+
+// 图片取自首页「加入交流」板块同款二维码，复制存于 public/images 下保证固定 URL
+const QR_ITEMS = [
+  {
+    icon: QR_ICON_MP,
+    title: "公众号「测试开发技术」",
+    desc: "AI 提效技巧与测开干货",
+    img: "/images/wechat-mp-qrcode.png",
+  },
+  {
+    icon: QR_ICON_WECHAT,
+    title: "作者微信",
+    desc: "备注「测开学习」进交流群",
+    img: "/images/wechat-author.png",
+  },
+  {
+    icon: QR_ICON_ZSXQ,
+    title: "AI 测开进化圈",
+    desc: "微信扫码加入星球",
+    img: "/images/zsxq.png",
+  },
+];
+
+function createSideQRBar(): void {
+  const bar = document.createElement("div");
+  bar.className = "side-qr-bar";
+  bar.innerHTML = QR_ITEMS.map(
+    (item) => `
+      <div class="qr-item">
+        <button type="button" class="qr-btn" aria-label="${item.title}二维码">${item.icon}</button>
+        <div class="qr-pop" role="tooltip">
+          <img src="${item.img}" alt="${item.title}二维码"/>
+          <div class="qr-pop-title">${item.title}</div>
+          <div class="qr-pop-desc">${item.desc}</div>
+        </div>
+      </div>`,
+  ).join("");
+
+  // 触屏无 hover：点击展开、再点或点空白处收起，同时只展开一个
+  bar.querySelectorAll<HTMLElement>(".qr-item").forEach((item) => {
+    item.querySelector(".qr-btn")?.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const wasOpen = item.classList.contains("open");
+      bar
+        .querySelectorAll(".qr-item.open")
+        .forEach((open) => open.classList.remove("open"));
+      if (!wasOpen) item.classList.add("open");
+    });
+  });
+  document.addEventListener("click", () => {
+    bar
+      .querySelectorAll(".qr-item.open")
+      .forEach((open) => open.classList.remove("open"));
+  });
+
+  document.body.appendChild(bar);
+}
+
+function initSideQR(): void {
+  if (!document.querySelector(".side-qr-bar")) createSideQRBar();
+}
+
 /* ---------------- 客户端配置 ---------------- */
 
 export default defineClientConfig({
@@ -61,6 +131,7 @@ export default defineClientConfig({
     onMounted(() => {
       refreshPageview();
       initImmersive();
+      initSideQR();
     });
 
     watch(() => route.path, () => {

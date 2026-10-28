@@ -2,6 +2,7 @@ import type { NavbarOptions } from "vuepress-theme-hope";
 
 export const navbar: NavbarOptions = [
   { text: "学习路线", link: "/roadmap/", activeMatch: "^/roadmap/" },
+  { text: "测试八股文", link: "/basics/", activeMatch: "^/basics/" },
   { text: "面试题库", link: "/interview/", activeMatch: "^/interview/" },
   { text: "实战教程", link: "/knowledge/", activeMatch: "^/knowledge/" },
   { text: "资源导航", link: "/resources/", activeMatch: "^/resources/" },

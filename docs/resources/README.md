@@ -28,3 +28,7 @@ description: 测试开发资源导航：测试工具清单、推荐书单、课�
 - 链接失效请提 Issue，我们定期清理
 
 欢迎推荐资源，参见[贡献指南](/about/contributing.html)。
+
+## 配套资源
+
+本资源导航与 [快捷导航](https://www.kjdaohang.com/) 配套建设：更多测试开发工具、常用网站与效率入口，[kjdaohang.com](https://www.kjdaohang.com/) 一站直达。

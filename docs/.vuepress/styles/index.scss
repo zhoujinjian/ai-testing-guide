@@ -32,6 +32,102 @@
   margin-right: 0.35em;
 }
 
+// ===== 侧边栏二维码引流 =====
+// 由 client.ts 注入 body：右缘上方一列三个圆形按钮（公众号/微信/星球），
+// 悬浮或点击向左弹出二维码卡片
+.side-qr-bar {
+  position: fixed;
+  // 置于页面右缘上部（导航栏之下），弹出卡片向下展开故不会被导航栏遮挡
+  right: 1rem;
+  top: 9rem;
+  z-index: 120;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.side-qr-bar .qr-item {
+  position: relative;
+
+  .qr-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    border: 1px solid var(--vp-c-border);
+    border-radius: 50%;
+    background: var(--vp-c-bg);
+    color: var(--vp-c-text-mute, var(--vp-c-text));
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: color 0.2s, border-color 0.2s;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--vp-c-accent);
+      border-color: var(--vp-c-accent);
+      outline: none;
+    }
+  }
+
+  .qr-pop {
+    position: absolute;
+    // 从按钮顶部向下展开，按钮列在右缘上部，弹出永远有空间、不被导航栏裁切
+    top: -6px;
+    right: calc(100% + 12px);
+    transform: scale(0.96);
+    transform-origin: right top;
+    width: 172px;
+    padding: 10px;
+    border: 1px solid var(--vp-c-border);
+    border-radius: 12px;
+    background: var(--vp-c-bg);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+
+    img {
+      width: 100%;
+      border-radius: 6px;
+      background: #fff; // 二维码白底，暗色模式下不受卡片背景影响
+    }
+  }
+
+  .qr-pop-title {
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--vp-c-text);
+  }
+
+  .qr-pop-desc {
+    margin-top: 2px;
+    font-size: 12px;
+    color: var(--vp-c-text-mute, var(--vp-c-text));
+  }
+
+  // 桌面 hover 展开；触屏由 JS 切换 .open；键盘聚焦同样可达
+  &:hover .qr-pop,
+  &.open .qr-pop,
+  &:focus-within .qr-pop {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+
+// 窄屏导航栏更矮（约 3.2rem），按钮列相应上提
+@media (max-width: 1080px) {
+  .side-qr-bar {
+    top: 5.5rem;
+  }
+}
+
 // ===== 沉浸式阅读 =====
 // 切换开关由 client.ts 注入 body，html.layout-hidden 由按钮 toggle
 .immersive-toggle-btn {
@@ -72,6 +168,11 @@
 }
 
 html.layout-hidden {
+  // 引流二维码栏与沉浸模式目标冲突，一并隐藏
+  .side-qr-bar {
+    display: none;
+  }
+
   // 隐藏导航栏（上移）、侧边栏、右侧页内目录
   .vp-navbar {
     transform: translateY(-100%);

@@ -36,3 +36,7 @@ description: 测开分类面试题库：大模型测试、AI 测试提效、测�
 - 参考回答要求：先给回答框架，再给要点展开，不鼓励背诵式答案
 - 每题独立一个 Markdown 文件，英文 slug 命名，标题用中文
 - 欢迎通过 Issue 或 PR 提交你遇到的真实面试题，参见[贡献指南](/about/contributing.html)
+
+## 配套资源
+
+本题库与 [AI 测试开发导航](https://www.testfather.cn/) 配套建设：[面试刷题](https://www.testfather.cn/interviews)（更多大厂面试真题与在线刷题练习）、[精品课程](https://www.testfather.cn/courses)（体系化备考课程）。
